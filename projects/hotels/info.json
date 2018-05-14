@@ -1,0 +1,31 @@
+{
+    "category": "hotels",
+    "project": [
+        {
+            "id": "2062-killybegs",
+            "title": "2062 Killybegs",
+            "location": "Location",
+            "details": "Details",
+            "other": "Other",
+            "images": [
+                {
+                    "title": "External View",
+                    "url": "/2062-killybegs/images/image-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "2286-claregalway",
+            "title": "2286 Claregalway",
+            "location": "Location",
+            "details": "Details",
+            "other": "Other",
+            "images": [
+                {
+                    "title": "External View",
+                    "url": "/2286-claregalway/images/image-1.jpg"
+                }
+            ]
+        }
+    ]
+ }

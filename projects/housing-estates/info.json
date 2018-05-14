@@ -1,0 +1,133 @@
+{
+    "category": "housing-estates",
+    "project": [
+        {
+            "id": "2200-thornberry",
+            "title": "2200 Thornberry",
+            "location": "Location",
+            "details": "Details",
+            "other": "Other",
+            "images": [
+                {
+                    "title": "External View",
+                    "url": "/2200-thornberry/images/image-1.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2200-thornberry/images/image-2.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2200-thornberry/images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "2292-letteragh-road",
+            "title": "2292 Letteragh Road",
+            "location": "Location",
+            "details": "Details",
+            "other": "Other",
+            "images": [
+                {
+                    "title": "External View",
+                    "url": "/2292-letteragh-road/images/image-1.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2292-letteragh-road/images/image-2.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2292-letteragh-road/images/image-3.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2292-letteragh-road/images/image-4.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2292-letteragh-road/images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "2538-oranmore",
+            "title": "2538 Oranmore",
+            "location": "Location",
+            "details": "Details",
+            "other": "Other",
+            "images": [
+                {
+                    "title": "External View",
+                    "url": "/2538-oranmore/images/image-1.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2538-oranmore/images/image-2.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2538-oranmore/images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "2641-mike-burke",
+            "title": "2641 Mike Burke",
+            "location": "Location",
+            "details": "Details",
+            "other": "Other",
+            "images": [
+                {
+                    "title": "External View",
+                    "url": "/2641-mike-burke/images/image-1.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2641-mike-burke/images/image-2.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2641-mike-burke/images/image-3.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2641-mike-burke/images/image-4.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2641-mike-burke/images/image-5.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/2641-mike-burke/images/image-6.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/2641-mike-burke/images/image-7.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/2641-mike-burke/images/image-8.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/2641-mike-burke/images/image-9.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/2641-mike-burke/images/image-10.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/2641-mike-burke/images/image-11.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/2641-mike-burke/images/image-12.jpg"
+                }
+            ]
+        }
+    ]
+ }

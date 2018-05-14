@@ -1,0 +1,146 @@
+{
+    "category": "dwellings",
+    "project": [
+        {
+            "id": "2932-mccormack",
+            "title": "2932 McCormack",
+            "location": "Location",
+            "details": "Details",
+            "other": "Other",
+            "images": [
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-1.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-2.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-3.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-4.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-5.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-6.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-7.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-8.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-9.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-10.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-11.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/2932-mccormack/images/image-12.jpg"
+                }
+            ]
+        },
+        {
+            "id": "3002-brady",
+            "title": "3002 Brady",
+            "location": "Location",
+            "details": "Details",
+            "other": "Other",
+            "videos": [
+                {
+                    "title": "Model Video",
+                    "url": "/3002-brady/videos/video-3.mp4"
+                }
+            ],
+            "images": [
+                {
+                    "title": "External View",
+                    "url": "/3002-brady/images/image-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "3448-downes",
+            "title": "3448 Downes",
+            "location": "Location",
+            "details": "Details",
+            "other": "Other",
+            "images": [
+                {
+                    "title": "External View",
+                    "url": "/3448-downes/images/image-1.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/3448-downes/images/image-2.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/3448-downes/images/image-3.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/3448-downes/images/image-4.jpg"
+                },
+                {
+                    "title": "External View",
+                    "url": "/3448-downes/images/image-5.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/3448-downes/images/image-6.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/3448-downes/images/image-7.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/3448-downes/images/image-8.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/3448-downes/images/image-9.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/3448-downes/images/image-10.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/3448-downes/images/image-11.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/3448-downes/images/image-12.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/3448-downes/images/image-13.jpg"
+                },
+                {
+                    "title": "External 3D View",
+                    "url": "/3448-downes/images/image-14.jpg"
+                }
+            ]
+        }
+    ]
+ }
