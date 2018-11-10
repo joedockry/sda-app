@@ -3,535 +3,128 @@
     <head>
 		<title>SEAN DOCKRY & ASSOCIATES</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
         <link rel="stylesheet" href="style.css">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script>
-		$(document).ready(function () {
-			$('.footer-content').appendTo('.main-content');
-			$('.default-filter').focus();
-			$('.grid-all').fadeIn();
-			$('.grid-all').addClass('current-grid');
-		
-			//Selecting filters
-			$('#filter-all').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-all').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-all').fadeIn();
-				$('.grid-all').addClass('current-grid');
-				$(".current-dropdown-filter").text("All");
-			});
-			$('#filter-housing-estates').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-housing-estates').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-housing-estates').fadeIn();
-				$('.grid-housing-estates').addClass('current-grid');
-				$(".current-dropdown-filter").text("Housing Estates");
-			});
-			$('#filter-apartments').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-apartments').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-apartments').fadeIn();
-				$('.grid-apartments').addClass('current-grid');
-				$(".current-dropdown-filter").text("Apartments");
-			});
-			$('#filter-dwellings-large').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-dwellings-large').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-dwellings-large').fadeIn();
-				$('.grid-dwellings-large').addClass('current-grid');
-				$(".current-dropdown-filter").text("Dwellings Large");
-			});
-			$('#filter-dwellings').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-dwellings').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-dwellings').fadeIn();
-				$('.grid-dwellings').addClass('current-grid');
-				$(".current-dropdown-filter").text("Dwellings");
-			});
-			$('#filter-alterations-extensions-dwellings').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-alterations-extensions-dwellings').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-alterations-extensions-dwellings').fadeIn();
-				$('.grid-alterations-extensions-dwellings').addClass('current-grid');
-				$(".current-dropdown-filter").text("Alterations & Extensions to Dwellings");
-			});
-			$('#filter-hotels').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-hotels').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-hotels').fadeIn();
-				$('.grid-hotels').addClass('current-grid');
-				$(".current-dropdown-filter").text("Hotels");
-			});
-			$('#filter-pubs-restaurants').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-pubs-restaurants').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-pubs-restaurants').fadeIn();
-				$('.grid-pubs-restaurants').addClass('current-grid');
-				$(".current-dropdown-filter").text("Pubs & Restaurants");
-			});
-			$('#filter-healthcare').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-healthcare').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-healthcare').fadeIn();
-				$('.grid-healthcare').addClass('current-grid');
-				$(".current-dropdown-filter").text("Healthcare");
-			});
-			$('#filter-education').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-education').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-education').fadeIn();
-				$('.grid-education').addClass('current-grid');
-				$(".current-dropdown-filter").text("Eduacation");
-			});
-			$('#filter-offices').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-offices').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-offices').fadeIn();
-				$('.grid-offices').addClass('current-grid');
-				$(".current-dropdown-filter").text("Offices");
-			});
-			$('#filter-multiuse').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-multiuse').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-multiuse').fadeIn();
-				$('.grid-multiuse').addClass('current-grid');
-				$(".current-dropdown-filter").text("Multi-use");
-			});
-			$('#filter-retail-large').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-retail-large').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-retail-large').fadeIn();
-				$('.grid-retail-large').addClass('current-grid');
-				$(".current-dropdown-filter").text("Retail Large");
-			});
-			$('#filter-retail-highstreet').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-retail-highstreet').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-retail-highstreet').fadeIn();
-				$('.grid-retail-highstreet').addClass('current-grid');
-				$(".current-dropdown-filter").text("Retail Highstreet");
-			});
-			$('#filter-retail').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-retail').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-retail').fadeIn();
-				$('.grid-retail').addClass('current-grid');
-				$(".current-dropdown-filter").text("Retail");
-			});
-			$('#filter-heritage-conservation').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-heritage-conservation').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-heritage-conservation').fadeIn();
-				$('.grid-heritage-conservation').addClass('current-grid');
-				$(".current-dropdown-filter").text("Heritage Conservation");
-			});
-
-			// Dropdown Filters
-			function filterDropDown() {
-				if ($("#filter-dropdown-list").css("display") == 'none'){
-					$("#filter-dropdown-list").css("display","block");
-					$("#filter-dropdown-icon").css("background", "url('images/filter-menu-active.png')");
-					$("#filter-dropdown-icon").css("background-size", "cover");
-				} else {
-					$("#filter-dropdown-list").css("display", "none");
-					$("#filter-dropdown-icon").css("background", "url('images/filter-menu.png')");
-					$("#filter-dropdown-icon").css("background-size", "cover");
-				}
-			}
-			$('#filter-dropdown-all').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-all').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-all').fadeIn();
-				$('.grid-all').addClass('current-grid');
-				$(".current-dropdown-filter").text("All");
-				filterDropDown();
-			});
-			$('#filter-dropdown-housing-estates').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-housing-estates').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-housing-estates').fadeIn();
-				$('.grid-housing-estates').addClass('current-grid');
-				$(".current-dropdown-filter").text("Housing-Estates");
-				filterDropDown();
-			});
-			$('#filter-dropdown-apartments').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-apartments').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-apartments').fadeIn();
-				$('.grid-apartments').addClass('current-grid');
-				$(".current-dropdown-filter").text("Apartments");
-				filterDropDown();
-			});
-			$('#filter-dropdown-dwellings').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-dwellings').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-dwellings').fadeIn();
-				$('.grid-dwellings').addClass('current-grid');
-				$(".current-dropdown-filter").text("Dwellings");
-				filterDropDown();
-			});
-			$('#filter-dropdown-alterations-extensions-dwellings').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-alterations-extensions-dwellings').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-alterations-extensions-dwellings').fadeIn();
-				$('.grid-alterations-extensions-dwellings').addClass('current-grid');
-				$(".current-dropdown-filter").text("Alterations & Extensions to Dwellings");
-				filterDropDown();
-			});
-			$('#filter-dropdown-hotels').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-hotels').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-hotels').fadeIn();
-				$('.grid-hotels').addClass('current-grid');
-				$(".current-dropdown-filter").text("Hotels");
-				filterDropDown();
-			});
-			$('#filter-dropdown-pubs-restaurants').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-pubs-restaurants').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-pubs-restaurants').fadeIn();
-				$('.grid-pubs-restaurants').addClass('current-grid');
-				$(".current-dropdown-filter").text("Pubs & Restaurants");
-				filterDropDown();
-			});
-			$('#filter-dropdown-offices').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-offices').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-offices').fadeIn();
-				$('.grid-offices').addClass('current-grid');
-				$(".current-dropdown-filter").text("Offices");
-				filterDropDown();
-			});
-			$('#filter-dropdown-dropdown-retail').on('click', function() {
-				$('.current-filter').removeClass('current-filter');
-				$('#filter-retail').addClass('current-filter');
-				$('.current-grid').fadeOut();
-				$('.current-grid').removeClass('current-grid');
-				$('.grid-retail').fadeIn();
-				$('.grid-retail').addClass('current-grid');
-				$(".current-dropdown-filter").text("Retail");
-				filterDropDown();
-			});
-			
-			$(".scroll-indicator").click(function() {
-				$('html,body').animate({
-					scrollTop: $(".scroll-indicator").offset().top},
-				'slow');
-			});
-		
-			setTimeout(function(){
-				$('.image-content.carousel-1').hide();
-				$('.image-content.carousel-2').show();
-			}, 5000);
-			setTimeout(function(){
-				$('.image-content.carousel-2').hide();
-				$('.image-content.carousel-3').show();
-			}, 10000);
-			setTimeout(function(){
-				$('.image-content.carousel-3').hide();
-				$('.image-content.carousel-1').show();
-			}, 15000);
-		});
-
-		window.setInterval(function(){
-			setTimeout(function(){
-				$('.image-content.carousel-1').hide();
-				$('.image-content.carousel-2').show();
-			}, 5000);
-			setTimeout(function(){
-				$('.image-content.carousel-2').hide();
-				$('.image-content.carousel-3').show();
-			}, 10000);
-			setTimeout(function(){
-				$('.image-content.carousel-3').hide();
-				$('.image-content.carousel-1').show();
-			}, 15000);
-		}, 15000);
-
-		$(window).scroll(function () {
-			var scrollTop = $(window).scrollTop();
-			var height = 500;
-
-			$('.scroll-indicator').css({
-				'opacity': ((height - scrollTop) / height)
-			});
-		});
 		</script>
     </head>
-    <body style="background-image: url('images/main-carousel/carousel-1.png'); background-position: center; background-size: cover;">
-        <div class="header-content">
-			<!--
-            <br>
-            <img class="logo" src="images/title.png">
-			<br>
-			-->
-			<div class="burger-logo">
+    <body>
+        <header id="navigation-bar">
+			<nav>
+                <logo></logo>
+                <div class="logo-fixed">Sea&#769;n Dockry and Associates</div>
+                <div class="tabs">
+                    <ul class="tabs-list">
+                        <li id="home" class="tab"><a class="tab-link" href="test.html">Home</a></li><!--
+                        --><li id="services" class="tab selected-tab"><a class="tab-link" href="services.html">Services</a></li><!--
+                        --><li id="about" class="tab"><a class="tab-link" href="about.html">About</a></li><!--
+                        --><li id="contact" class="tab"><a class="tab-link" href="contact.html">Contact</a></li>
+                        <hr />
+                    </ul>
+                </div>
+                <burger>
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul class="burger-menu">
+                        <li id="burger-home" class="burger-tab"><a class="burger-tab-link" href="test.html">Home</a></li>
+                        <li id="burger-services" class="burger-tab burger-selected-item"><a class="burger-tab-link" href="services.html">Services</a></li>
+                        <li id="burger-about" class="burger-tab"><a class="burger-tab-link" href="about.html">About</a></li>
+                        <li id="burger-contact" class="burger-tab"><a class="burger-tab-link" href="contact.html">Contact</a></li>
+                        <div id="burger-select"></div>
+                    </ul>
+                </burger>
+			</nav>
+		</header>
+        <div class="container">
+			<div class="page-title">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Services
+				<hr>
 			</div>
-			<br>
-			<br>
-			<br>
-			<div id="tab-header">
-				<div class="tab burger-tab" style="width:5%">
-					<h3>&nbsp;</h3>
-				</div>
-				<div class="tab-image burger-tab">
-					<h3>&nbsp;</h3>
-				</div>
-				<a href="index.html">
-					<div class="tab burger-tab" style="width:14.2857%">
-						<h2>PROJECTS</h2>
-					</div>
-				</a>
-				<a href="services.html">
-					<div class="tab burger-tab" style="width:14.2857%">
-						<h2>SERVICES</h2>
-					</div>
-				</a>
-				<a href="aboutus.html">
-					<div class="tab burger-tab" style="width:14.2857%">
-						<h2>ABOUT US</h2>
-					</div>
-				</a>
-				<a href="contact.html">
-					<div class="tab burger-tab" style="width:14.2857%">
-						<h2>CONTACT</h2>
-					</div>
-				</a>
-				<div class="tab burger-tab" style="width:5%">
-					<h3>&nbsp;</h3>
-				</div>
-				<!-- Burger Menu -->
-				<div id="menu-icon"></div>
-				<div id="burger" class="burger-dropdown">
-					<a href="index.html">
-						<div class="burger-item">
-							<h2>PROJECTS</h2>
-						</div>
-					</a>
-					<a href="services.html">
-						<div class="burger-item">
-							<h2>SERVICES</h2>
-						</div>
-					</a>
-					<a href="aboutus.html">
-						<div class="burger-item">
-							<h2>ABOUT US</h2>
-						</div>
-					</a>
-					<a href="contact.html">
-						<div class="burger-item">
-							<h2>CONTACT</h2>
-						</div>
-					</a>
-				</div>
+			<div class="content">
+                <p>Sea&#769;n Dockry and Associates is a progressive practice of Architects, Project Managers and Interior Designers providing a 
+                service tailored to the specific requirements of each client's brief and helping to develop and realise their goals in an 
+                optimum balance of time, quality and costs.</p>
+                <br>
+                <p>Our comprehensive service includes:</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Urban Planning</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Project Management</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Architecture</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Historic Building Consultancy</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Contract Administration</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Interior Design</p>
 			</div>
         </div>
-        <div class="main-content">
-			<div class="content-center">
-				<center><h1>Services</h1></center>
-				<br>
-				<p>Seán Dockry and Associates is a progressive practice of Architects, Project Managers and Interior Designers providing a 
-				service tailored to the specific requirements of each client’s brief and helping to develop and realise their goals in an 
-				optimum balance of time, quality and costs.</p>
-				<br>
-				<hr class="horizontal-line">
-				<br>
-				<p>Our comprehensive service includes:</p>
-				<p>Urban Planning</p>
-				<p>Project Management</p>
-				<p>Architecture</p>
-				<p>Historic Building Consultancy</p>
-				<p>Contract Administration</p>
-				<p>Interior Design</p>
+        <footer>
+			<div class="footer-title">
+				Sea&#769;n Dockry and Associates
 			</div>
-        </div>
-        <div class="footer-content">
-			<div class="footer-left"><h3 class="footer-text"> Second Floor, Corbett House, Shoemaker Lane, Edward Square, Galway, Ireland</h3></div
-			><div class="footer-social">
-                <a class="" href="https://www.facebook.com/Sean-Dockry-Associates-198935273504277/" target="_blank">
-                    <img class="footer-social-image footer-social-facebook" src="images/social-media-footer/facebook.png">
-                </a>
-                <a class="" target="_blank">
-                    <img class="footer-social-image footer-social-twitter" src="images/social-media-footer/twitter.png">
-                </a>
-                <a class="" target="_blank">
-                    <img class="footer-social-image footer-social-linkedin" src="images/social-media-footer/linkedin.png">
-                </a>
-                <a class="" target="_blank">
-                    <img class="footer-social-image footer-social-google" src="images/social-media-footer/google.png">
-                </a>
-            </div
-			><div class="footer-right">
-				<h3 class="footer-text"><i class="fa fa-phone" style="font-size:24px"></i> Tel: +353 (0) 91 568522<br>
-					<i class="fa fa-envelope" style="font-size:24px"></i> Email: mail@sdaarchitects.ie</h3>
-			</div
-        ></div
-		><div class="social-media-container">
-				<a class="social-media-button facebook" href="https://www.facebook.com/Sean-Dockry-Associates-198935273504277/" target="_blank">
-					<img class="social-media-image" src="images/social-media-sidebar/socialmedia-facebook.png">
-				</a>
-				<br>
-				<a class="social-media-button instagram" target="_blank">
-					<img class="social-media-image" src="images/social-media-sidebar/socialmedia-instagram.png">
-				</a>
-				<br>
-				<a class="social-media-button tumbler" target="_blank">
-					<img class="social-media-image" src="images/social-media-sidebar/socialmedia-tumbler.png">
-				</a>
-				<br>
-				<a class="social-media-button linkedin" target="_blank">
-					<img class="social-media-image" src="images/social-media-sidebar/socialmedia-linkedin.png">
-				</a>
-				<br>
-				<a class="social-media-button twitter" target="_blank">
-					<img class="social-media-image" src="images/social-media-sidebar/socialmedia-twitter.png">
-				</a>
-				<br>
-				<a class="social-media-button google" target="_blank">
-					<img class="social-media-image" src="images/social-media-sidebar/socialmedia-google.png">
-				</a>
-				<br>
-				<a class="social-media-button pinterest" target="_blank">
-					<img class="social-media-image" src="images/social-media-sidebar/socialmedia-pinterest.png">
-				</a>
-				<br>
-				<a class="social-media-button youtube" href="https://www.youtube.com/results?search_query=sean+dockry+and+associates" target="_blank">
-					<img class="social-media-image" src="images/social-media-sidebar/socialmedia-youtube.png">
-				</a>
-        </div>
+			<div class="footer-social">
+				<i class="fa fa-facebook-square social-media" style="font-size:65px"></i>
+				<i class="fa fa-twitter-square social-media" style="font-size:65px"></i>
+				<i class="fa fa-envelope-square social-media" style="font-size:65px"></i>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-info">
+					<div class="icon">
+						<center>
+							<i class="fa fa-map-marker" style="font-size:24px"></i>
+						</center>
+					</div>
+					<div>Second Floor, Corbett House, Shoemaker Lane, Edward Square, Galway</div>
+				</div>
+				<div class="footer-info">
+					<div class="icon">
+						<center>
+							<i class="fa fa-phone" style="font-size:24px"></i>
+						</center>
+					</div>
+					<div>+353 (0)91 568522</div>
+				</div>
+				<div class="footer-info">
+					<div class="icon">
+						<center>
+							<i class="fa fa-envelope" style="font-size:24px"></i>
+						</center>
+					</div>
+					<div>mail@sdaarchitects.ie</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 	</html>
 	<script>
-		var header = document.getElementById("tab-header");
-		var menuIcon = document.getElementById("menu-icon");
-		var sticky = header.offsetTop - 20;
 
-		var burger = document.getElementById("burger");
-		var burgerDown = false;
+		/*
+		Sticky Header Controller
+		*/
 
-		$(window).scroll(function () {
+		var header = document.getElementById("navigation-bar");
+		var sticky = header.offsetTop + 40;
+		var touch = header.offsetTop + 15;
 
+		$(document.body).on('touchmove', onTouch);
+		$(window).scroll(onScroll); 
+
+		function onScroll(){ 
 			if (window.pageYOffset >= sticky) {
-				header.classList.add("tabs-fixed");
-				menuIcon.classList.add("sticky");
-				burger.style.marginTop = "60px";
+				header.classList.add("nav-fixed");
 			} else {
-				header.classList.remove("tabs-fixed");
-				menuIcon.classList.remove("sticky");
-				burger.style.marginTop = "40px";
-			}
-		});
-
-		$("#menu-icon").click(function() {
-			if(burgerDown) {
-				burger.classList.remove("burger-dropdown-down");
-				burgerDown = false;
-			} else {
-				burger.classList.add("burger-dropdown-down");
-				burgerDown = true;
-			}
-		});
-
-		$("#menu-icon").hover(overburger, outburger);
-		function overburger (event) {
-			if(burgerDown) {
-				$(this).css("background", "url('images/burger-menu.png')");
-				$(this).css("background-size", "cover");
-			} else {
-				$(this).css("background", "url(images/burger-menu-active.png)");
-				$(this).css("background-size", "cover");
+				header.classList.remove("nav-fixed");
 			}
 		}
-		function outburger (event) {
-			if(burgerDown) {
-				$(this).css("background", "url(images/burger-menu-active.png)");
-				$(this).css("background-size", "cover");
-			} else {
-				$(this).css("background", "url('images/burger-menu.png')");
-				$(this).css("background-size", "cover");
-			}
-		};
 
-		$("#filter-dropdown-icon").click(function () {
-			if ($("#filter-dropdown-list").css('display') == 'block') {
-				$("#filter-dropdown-list").css("display", "none");
-				$(this).css("background", "url('images/filter-menu-active.png')");
-				$(this).css("background-size", "cover");
+		function onTouch(){ 
+			if (window.pageYOffset >= touch) {
+				header.classList.add("nav-fixed");
 			} else {
-				$("#filter-dropdown-list").css("display", "block");
-				$(this).css("background", "url('images/filter-menu.png')");
-				$(this).css("background-size", "cover");
-			}
-		});
-
-		$("#filter-dropdown-icon").hover(overfilters, outfilters);
-		function overfilters (event) {
-			if($("#filter-dropdown-list").css('display') == 'block') {
-				$(this).css("background", "url('images/filter-menu.png')");
-				$(this).css("background-size", "cover");
-			} else {
-				$(this).css("background", "url('images/filter-menu-active.png')");
-				$(this).css("background-size", "cover");
+				header.classList.remove("nav-fixed");
 			}
 		}
-		function outfilters (event) {
-			if($("#filter-dropdown-list").css('display') == 'block') {
-				$(this).css("background", "url('images/filter-menu-active.png')");
-				$(this).css("background-size", "cover");
-			} else {
-				$(this).css("background", "url('images/filter-menu.png')");
-				$(this).css("background-size", "cover");
-			}
-		};
-		</script>
+	</script>
 </html>

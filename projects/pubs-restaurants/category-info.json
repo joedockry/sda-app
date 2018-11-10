@@ -1,0 +1,90 @@
+{
+    "category": "pubs-restaurants",
+    "num": "2",
+    "project": [
+        {
+            "id": "bar-903",
+            "idNum": "0",
+            "title": "Bar 903",
+            "category": "Pubs and Resaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Bar 903<br/>Eyre Square<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Refurbishment of a well-established city centre bar premises."
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed June 2005"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "Approx 212m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-kings-head",
+            "idNum": "1",
+            "title": "The Kings Head",
+            "category": "Pubs and Resaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "The Kings Head<br/>Highstreet<br/>Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "The Kings Head pub is a well-established pub located within a protected structure in the heart of Galway city. The work carried out involved refurbishment of the existing bar premises, removing any ‘mock’ medieval elements, and providing complementary furnishings to highlight the original features."
+                },
+                {
+                    "head": "Status",
+                    "body": "Phased works began Spring 2004"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "Approx 558m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

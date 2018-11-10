@@ -1,0 +1,52 @@
+{
+    "category": "retail-large",
+    "num": "1",
+    "project": [
+        {
+            "id": "fitzpatricks-supermarket",
+            "idNum": "0",
+            "title": "Fitzpatrick's Supermarket",
+            "category": "Retail Large",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Church St.<br/>Ennistymon<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Supermarket development with basement car park and ancillarty offices and storage to first floor."
+                },
+                {
+                    "head": "Client",
+                    "body": "Ms Jackie Crowe"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed Spring 2008"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "2885m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

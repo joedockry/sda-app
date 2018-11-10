@@ -1,0 +1,238 @@
+{
+    "category": "alterations-extensions-dwellings",
+    "num": "6",
+    "project": [
+        {
+            "id": "dublin",
+            "idNum": "0",
+            "title": "Dublin",
+            "category": "Alerations & Extensions to Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Private House<br/>Dublin"
+                },
+                {
+                    "head": "Description",
+                    "body": "Extension to listed building, Dublin"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "no-1-parkavara",
+            "idNum": "1",
+            "title": "No. 1 Parkavara",
+            "category": "Alerations & Extensions to Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Parkavara, Millstreet<br/>Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Renovations and extension to end of terrace dwelling"
+                },
+                {
+                    "head": "Client",
+                    "body": "Mrs. Mary Ryan"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "clifden",
+            "idNum": "2",
+            "title": "Clifden",
+            "category": "Alerations & Extensions to Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Erislannan, Clifden<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Extension and alterations to existing family home"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "devon-park",
+            "idNum": "3",
+            "title": "Devon Park",
+            "category": "Alerations & Extensions to Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Extension"
+                },
+                {
+                    "head": "Client",
+                    "body": "Private"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "kennan-house",
+            "idNum": "4",
+            "title": "Kennan House",
+            "category": "Alerations & Extensions to Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Barna<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Extentions and alterations to existing bungalow."
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "bothar-na-greine",
+            "idNum": "5",
+            "title": "Bothar Na Greine",
+            "category": "Alerations & Extensions to Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Barna<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Extension and alterations to existing bungalow."
+                },
+                {
+                    "head": "Status",
+                    "body": "Under Construction"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "82 sq.m"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

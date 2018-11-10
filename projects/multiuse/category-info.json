@@ -1,0 +1,288 @@
+{
+    "category": "multiuse",
+    "num": "7",
+    "project": [
+        {
+            "id": "clarinbridge-crystal",
+            "idNum": "0",
+            "title": "Clarinbridge Crystal",
+            "category": "Multi-use",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Clarinbridge Crystal<br/>Clarinbridge<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Mixed-use development comprising 2 residential and 5 commercial units in two blocks. The original Clarinbridge schoolhouse building on site will be retained to form part of the commercial aspect of this development."
+                },
+                {
+                    "head": "Client",
+                    "body": "Mr Joe McCaul"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "1220m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "dunmore-area-action-plan",
+            "idNum": "1",
+            "title": "Dunmore Area Action Plan",
+            "category": "Multi-use",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Dunmore<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Creating a ‘vision’ for the future development of Dunmore, Co. Galway, including an Urban Design Framework & Design Guidelines for new infill and developments. The re-enforcement of the existing town centre is fundamental to the strategy with a new linear park forming the spine for new developments outside the centre."
+                },
+                {
+                    "head": "Client",
+                    "body": "Galway County Council"
+                },
+                {
+                    "head": "Status",
+                    "body": "Draft Stage"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "howley-square",
+            "idNum": "2",
+            "title": "Howley Square",
+            "category": "Multi-use",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Galway"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "market-square-kinvara",
+            "idNum": "3",
+            "title": "Market Square Kinvara",
+            "category": "Multi-use",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Main st.<br/>Kinvara,<br/>Co Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Mixed use development comprising, supermarket, retail, guesthouse and residential elements"
+                },
+                {
+                    "head": "Client",
+                    "body": "Mr. John Burke"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "mixed-development",
+            "idNum": "4",
+            "title": "Mixed Development",
+            "category": "Multi-use",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Mixed Development<br/>Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Landmark commercial development for Galway city on high profile site, including Shopping Centre, Hotel and Office Accommodation."
+                },
+                {
+                    "head": "Client",
+                    "body": "Consortium"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed 2009"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "pairc-an-clochar",
+            "idNum": "5",
+            "title": "Pairc An Clochar",
+            "category": "Multi-use",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Pairc an Clochar<br/>Oranmore<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Urban design strategy, master plan and detailed design for mixed development (40,000 sq.m) including new town square, boardwalk, supermarket, hotel, bar, artists studios, school and 290 residential units, adjacent to Main Street, Castle and waterfront in Oranmore."
+                },
+                {
+                    "head": "Client",
+                    "body": "White Cedar Developments"
+                },
+                {
+                    "head": "Status",
+                    "body": "Granted Planning"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "townparks",
+            "idNum": "6",
+            "title": "Townparks",
+            "category": "Multi-use",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Townparks<br/>Ballinasloe<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Preparation of an urban design strategy including a preferred alignment for a new ‘street’ facilitating development of the back lands of Society St. and Main St. Ballinasloe."
+                },
+                {
+                    "head": "Client",
+                    "body": "Galway County Council/Ballinasloe Town Council"
+                },
+                {
+                    "head": "Status",
+                    "body": "Adopted by Ballinasloe Town Council"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

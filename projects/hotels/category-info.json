@@ -1,0 +1,224 @@
+{
+    "category": "hotels",
+    "num": "5",
+    "project": [
+        {
+            "id": "claregalway-hotel",
+            "idNum": "0",
+            "title": "Claregalway Hotel",
+            "category": "Hotels",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Claregalway<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Development of a 48 bedroom Hotel, along with two bars, banqueting suite, restaurant, and leisure centre complete with beauty Spa."
+                },
+                {
+                    "head": "Client",
+                    "body": "GK Developments"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed Summer 2004"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "Approx 7153m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "kingsvalley-hotel",
+            "idNum": "1",
+            "title": "Kingsvalley Hotel",
+            "category": "Hotels",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Murrough<br/>Kinvara,<br/>Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Hotel development incorporating 23 bedrooms, three bars with restaurant facilities and ancillary apartments."
+                },
+                {
+                    "head": "Client",
+                    "body": "Walter King Construction Ltd."
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed Summer 2004"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "raheen-woods-hotel",
+            "idNum": "2",
+            "title": "Raheen Woods Hotel",
+            "category": "Hotels",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Athenry<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Development of a 50 bedroom Hotel, with three bars, restaurant, banqueting facilities and leisure centre complete with beauty Spa."
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed Spring 2005"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "Approx 8263m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "tara-hotel",
+            "idNum": "3",
+            "title": "Tara Hotel",
+            "category": "Hotels",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Killibegs<br/>Co. Donegal"
+                },
+                {
+                    "head": "Description",
+                    "body": "Hotel Development over 6 floors in the heart of Killybegs town, including bars on two levels, function room and 31 bedrooms"
+                },
+                {
+                    "head": "Client",
+                    "body": "Mr J.P McGuinness"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed August 2005"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "Approx 3000m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-huntsman-inn",
+            "idNum": "4",
+            "title": "The Huntsman Inn",
+            "category": "Hotels",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "164 College Road<br/>Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Refurbishment of existing bar premises incorporating three bars, restaurant and new build of an additional 12 luxury bedrooms."
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed Summer 2004"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "Approx 1088m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

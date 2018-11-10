@@ -1,0 +1,338 @@
+{
+    "category": "dwellings",
+    "num": "9",
+    "project": [
+        {
+            "id": "menlo-house",
+            "idNum": "0",
+            "title": "Menlo House",
+            "category": "Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Private House<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "High specification contemporary dwelling, with open plan living and strong relationship between house and garden."
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed Winter 2004"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "354 m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "barna-house",
+            "idNum": "1",
+            "title": "Barna House",
+            "category": "Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Barna<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Family Dwelling"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "donegal-house",
+            "idNum": "2",
+            "title": "Donegal House",
+            "category": "Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Carrickfin, Kincasslagh<br/>Co. Donegal"
+                },
+                {
+                    "head": "Description",
+                    "body": "Family dwelling"
+                },
+                {
+                    "head": "Client",
+                    "body": "Mr. & Mrs. Gallagher"
+                },
+                {
+                    "head": "Status",
+                    "body": "Complete"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "nolan-house",
+            "idNum": "3",
+            "title": "Nolan House",
+            "category": "Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Barna<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Family dwelling"
+                },
+                {
+                    "head": "Client",
+                    "body": "Mr. & Mrs. Nolan"
+                },
+                {
+                    "head": "Status",
+                    "body": "Complete"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "house-at-bushypark",
+            "idNum": "4",
+            "title": "House at Bushypark",
+            "category": "Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Bushypark<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Five bedroom family house"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "lane-house",
+            "idNum": "5",
+            "title": "Lane House",
+            "category": "Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Ardrahan<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Luxury Private Dwelling "
+                },
+                {
+                    "head": "Status",
+                    "body": "Planning Permission Granted"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "ardfry-house",
+            "idNum": "6",
+            "title": "Ardfry House",
+            "category": "Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Ardfry"
+                },
+                {
+                    "head": "Description",
+                    "body": "Family dwelling"
+                },
+                {
+                    "head": "Status",
+                    "body": "Planning Permission Granted"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "house-at-kinvara",
+            "idNum": "7",
+            "title": "House at Kinvara",
+            "category": "Dwellings",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Kinvara<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Family dwelling house"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "private-house-c",
+            "idNum": "8",
+            "title": "Private House",
+            "category": "Dwellings",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

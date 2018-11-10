@@ -3,242 +3,476 @@
     <head>
 		<title>SEAN DOCKRY & ASSOCIATES</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16">
         <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="../viewer-style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script>
 		</script>
     </head>
-    <body style="background-color: rgb(78, 78, 78)">
-        <div class="header-content">
-			<div class="burger-logo">
-			</div>
-			<br>
-			<br>
-			<br>
-			<div id="tab-header">
-				<div class="tab burger-tab" style="width:5%">
-					<h3>&nbsp;</h3>
+    <body>
+        <header id="navigation-bar">
+			<nav>
+				<logo></logo>
+				<div class="logo-fixed">Sea&#769;n Dockry and Associates</div>
+				<div class="tabs">
+					<ul class="tabs-list">
+					  	<li id="home" class="tab selected-tab"><a class="tab-link" href="../test.html">Home</a></li><!--
+				   		--><li id="services" class="tab"><a class="tab-link" href="../services.html">Services</a></li><!--
+				   		--><li id="about" class="tab"><a class="tab-link" href="../about.html">About</a></li><!--
+				   		--><li id="contact" class="tab"><a class="tab-link" href="../contact.html">Contact</a></li>
+					  	<hr />
+					</ul>
 				</div>
-				<div class="tab-image burger-tab">
-					<h3>&nbsp;</h3>
-				</div>
-				<a href="../index.html">
-					<div class="tab burger-tab" style="width:14.2857%">
-						<h2>PROJECTS</h2>
-					</div>
-				</a>
-				<a href="../services.html">
-					<div class="tab burger-tab" style="width:14.2857%">
-						<h2>SERVICES</h2>
-					</div>
-				</a>
-				<a href="../aboutus.html">
-					<div class="tab burger-tab" style="width:14.2857%">
-						<h2>ABOUT US</h2>
-					</div>
-				</a>
-				<a href="../contact.html">
-					<div class="tab burger-tab" style="width:14.2857%">
-						<h2>CONTACT</h2>
-					</div>
-				</a>
-				<div class="tab burger-tab" style="width:5%">
-					<h3>&nbsp;</h3>
-				</div>
-				<!-- Burger Menu -->
-				<div id="menu-icon"></div>
-				<div id="burger" class="burger-dropdown">
-					<a href="../index.html">
-						<div class="burger-item">
-							<h2>PROJECTS</h2>
-						</div>
-					</a>
-					<a href="../services.html">
-						<div class="burger-item">
-							<h2>SERVICES</h2>
-						</div>
-					</a>
-					<a href="../aboutus.html">
-						<div class="burger-item">
-							<h2>ABOUT US</h2>
-						</div>
-					</a>
-					<a href="../contact.html">
-						<div class="burger-item">
-							<h2>CONTACT</h2>
-						</div>
-					</a>
-				</div>
-			</div>
-        </div>
-        <div class="main-content">
-			<div class="content-center-wide">
-				<div class="content-left">
-					<div class="content-top">
-						<center><h2 id="project-title-top">Project Title</h2></center>
-						<hr class="horizontal-line">
-					</div>
-					<div class="viewer">
-						<div class="main-image">
-							<div id="project-image" style="display: block;">
-								<img class="viewer-image" src="">
-								<h2 class="viewer-text"><span>Viewer Text</span></h2>
-							</div>
-							<video id="project-video" style="display: none;" controls>
-								<source src="" type="video/mp4">
-								Your browser does not support HTML5 video.
-							</video>
-							<div class="left-gradient">
-								<div class="left-arrow">
-								</div>
-							</div>
-							<div class="right-gradient">
-								<div class="right-arrow">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="content-right">
-					<div class="content-bottom">
-						<center><h2 id="project-title-bottom">Project Title</h2></center>
-						<hr class="horizontal-line">
-					</div>
-					<br>
-					<p id="project-title-content"></p>
-					<p id="project-location-content"></p>
-					<p id="project-details-content"></p>
-					<p id="project-other-content"></p>
-				</div>
-			</div>
-        </div>
-        <div class="footer-content">
-			<div class="footer-left">
-				<h3 class="footer-text"> Second Floor, Corbett House, Shoemaker Lane, Edward Square, Galway, Ireland</h3>
-			</div>
-            <div class="footer-social">
-                <a class="" href="https://www.facebook.com/Sean-Dockry-Associates-198935273504277/" target="_blank">
-                    <img class="footer-social-image footer-social-facebook" src="../images/social-media-footer/facebook.png">
-                </a>
-                <a class="" target="_blank">
-                    <img class="footer-social-image footer-social-twitter" src="../images/social-media-footer/twitter.png">
-                </a>
-                <a class="" target="_blank">
-                    <img class="footer-social-image footer-social-linkedin" src="../images/social-media-footer/linkedin.png">
-                </a>
-                <a class="" target="_blank">
-                    <img class="footer-social-image footer-social-google" src="../images/social-media-footer/google.png">
-                </a>
+				<burger>
+					<input type="checkbox" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<ul class="burger-menu">
+						<li id="burger-home" class="burger-tab burger-selected-item"><a class="burger-tab-link" href="../test.html">Home</a></li>
+						<li id="burger-services" class="burger-tab"><a class="burger-tab-link" href="../services.html">Services</a></li>
+						<li id="burger-about" class="burger-tab"><a class="burger-tab-link" href="../about.html">About</a></li>
+						<li id="burger-contact" class="burger-tab"><a class="burger-tab-link" href="../contact.html">Contact</a></li>
+						<div id="burger-select"></div>
+					</ul>
+				</burger>
+			</nav>
+		</header>
+        <div class="container">
+			<div class="page-title">
             </div>
-			<div class="footer-right">
-				<h3 class="footer-text"><i class="fa fa-phone" style="font-size:24px"></i> Tel: +353 (0) 91 568522<br>
-					<i class="fa fa-envelope" style="font-size:24px"></i> Email: mail@sdaarchitects.ie</h3>
+            <div class="content">
+                <div class="gallery">
+                    <div class="main-content">
+                        <div class="current-image">
+                            <img id="image" src="" height="100%"/>
+                            <div class="image-left"><img src="" height="100%"/></div>
+                            <div class="image-right"><img src="" height="100%"/></div>
+                            <div class="image-left"><img src="" height="100%"/></div>
+                            <div class="image-right"><img src="" height="100%"/></div>
+                            <div class="image-left"><img src="" height="100%"/></div>
+                            <div class="image-right"><img src="" height="100%"/></div>
+                            <div class="image-left"><img src="" height="100%"/></div>
+                            <div class="image-right"><img src="" height="100%"/></div>
+                            <div class="image-left"><img src="" height="100%"/></div>
+                            <div class="image-right"><img src="" height="100%"/></div>
+                        </div>
+                        <div class="current-video">
+                            <video id="video">
+                            </video>
+                            <div id="video-controls">
+                                <input type="button" id="play-pause" class="play-pause"></input>
+                                <div class="input-bar-controller" style="width: 50%;">
+                                    <div style="display: table-cell;vertical-align: middle;">
+                                        <input type="range" id="seek-bar" class="seek-bar" value="0">
+                                    </div>
+                                </div>
+                                <input type="button" id="mute" class="mute"></input>
+                                <div class="input-bar-controller" style="width: 20%;">
+                                    <div style="display: table-cell;vertical-align: middle;">
+                                        <input type="range" id="volume-bar" class="volume-bar" min="0" max="1" step="0.1" value="1">
+                                    </div>
+                                </div>
+                                <input type="button" id="full-screen" class="full-screen"></input>
+                            </div>
+                        </div>
+                        <div id="left" class="left-nav"></div>
+                        <div id="right" class="right-nav"></div>
+                        <!--<div id="zoom-in" class="plus-nav"></div>
+                        <div id="zoom-out" class="minus-nav"></div>-->
+                    </div>
+                </div>
+                <div class="project-info">
+                    <!--<p id="para1">&nbsp;</p>
+                    <p id="para2">&nbsp;</p>
+                    <p id="para3">&nbsp;</p>
+                    <p id="para4">&nbsp;</p>
+                    <p id="para5">&nbsp;</p>
+                    <p id="para6">&nbsp;</p>
+                    <p id="para7">&nbsp;</p>
+                    <p id="para8">&nbsp;</p>
+                    <p id="para9">&nbsp;</p>-->
+                </div>
+            </div>
+        </div>
+        <div class="project-controller">
+            <a href="../alterations-extensions-dwellings/category.html">
+                <div class="controller-previous project-control">
+                    <center><div class="hi-icon hi-icon-archive"><div class="icon-img"></div></div></center>
+                    <center><div class="controller-label">Retail Highstreet</div></center>
+                </div>
+            </a>
+            <a href="../test.html">
+                <div class="controller-home project-control">
+                    <center><div class="hi-icon hi-icon-archive"><div class="icon-grid"></div></div></center>
+                    <center><div class="controller-label">Projects</div></center>
+                </div>
+            </a>
+            <a href="../alterations-extensions-dwellings/category.html">
+                <div class="controller-next project-control">
+                    <center><div class="hi-icon hi-icon-archive rotate-180"><div class="icon-img"></div></div></center>
+                    <center><div class="controller-label">Apartments</div></center>
+                </div>
+            </a>
+        </div>
+        <footer>
+			<div class="footer-title">
+				Sea&#769;n Dockry and Associates
 			</div>
-        </div>
-        <div class="social-media-container">
-            <a class="social-media-button facebook" href="https://www.facebook.com/Sean-Dockry-Associates-198935273504277/" target="_blank">
-                <img class="social-media-image" src="../images/social-media-sidebar/socialmedia-facebook.png">
-            </a>
-            <br>
-            <a class="social-media-button instagram" target="_blank">
-                <img class="social-media-image" src="../images/social-media-sidebar/socialmedia-instagram.png">
-            </a>
-            <br>
-            <a class="social-media-button tumbler" target="_blank">
-                <img class="social-media-image" src="../images/social-media-sidebar/socialmedia-tumbler.png">
-            </a>
-            <br>
-            <a class="social-media-button linkedin" target="_blank">
-                <img class="social-media-image" src="../images/social-media-sidebar/socialmedia-linkedin.png">
-            </a>
-            <br>
-            <a class="social-media-button twitter" target="_blank">
-                <img class="social-media-image" src="../images/social-media-sidebar/socialmedia-twitter.png">
-            </a>
-            <br>
-            <a class="social-media-button google" target="_blank">
-                <img class="social-media-image" src="../images/social-media-sidebar/socialmedia-google.png">
-            </a>
-            <br>
-            <a class="social-media-button pinterest" target="_blank">
-                <img class="social-media-image" src="../images/social-media-sidebar/socialmedia-pinterest.png">
-            </a>
-            <br>
-            <a class="social-media-button youtube" href="https://www.youtube.com/results?search_query=sean+dockry+and+associates" target="_blank">
-                <img class="social-media-image" src="../images/social-media-sidebar/socialmedia-youtube.png">
-            </a>
-        </div>
+			<div class="footer-social">
+				<i class="fa fa-facebook-square social-media" style="font-size:65px"></i>
+				<i class="fa fa-twitter-square social-media" style="font-size:65px"></i>
+				<i class="fa fa-envelope-square social-media" style="font-size:65px"></i>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-info">
+                    <div class="icon">
+                        <center>
+                            <i class="fa fa-map-marker" style="font-size:24px"></i>
+                        </center>
+                    </div>
+                    <div>Second Floor, Corbett House, Shoemaker Lane, Edward Square, Galway</div>
+                </div>
+                <div class="footer-info">
+                    <div class="icon">
+                        <center>
+                            <i class="fa fa-phone" style="font-size:24px"></i>
+                        </center>
+                    </div>
+                    <div>+353 (0)91 568522</div>
+                </div>
+                <div class="footer-info">
+                    <div class="icon">
+                        <center>
+                            <i class="fa fa-envelope" style="font-size:24px"></i>
+                        </center>
+                    </div>
+                    <div>mail@sdaarchitects.ie</div>
+                </div>
+			</div>
+		</footer>
 	</body>
 	</html>
 	<script>
-		var category = localStorage.getItem("category");
-		var project = localStorage.getItem("project");
 
-		$(function() {
-			$.getJSON('/projects/' + category + '/info.json', function(data) {
-				$.each(data.project, function(i, p) {
-					if(p.id == project) {
-						$("#project-title-top").text(p.title);
-						$("#project-title-content").text(p.title);
-						$("#project-location-content").text(p.location);
-						$("#project-details-content").text(p.details);
-						$("#project-other-content").text(p.other);
-						$("#project-title-bottom").text(p.title);
+        var category = getUrlParameter("category");
+        var project = getUrlParameter("project");
 
-						//var isVideo = false;
-						$.each(p.videos, function(l, f) {
-							createVideo(f.url);
-							//isVideo = true;
-						});
+		/*
+		Sticky Header Controller
+		*/
 
-						$.each(p.images, function(l, f) {
-							createImage(f.title, f.url);
-						});
+		var header = document.getElementById("navigation-bar");
+		var sticky = header.offsetTop + 40;
+		var touch = header.offsetTop + 15;
 
-						$(".other-image").first().addClass("image-highlight");
-						selectOption($(".other-image").first());
-					}
-     			});
-			});
-		});
+		$(document.body).on('touchmove', onTouch); // for mobile
+		$(window).scroll(onScroll); 
 
-		function createImage(title, url) {
-			var image = "<div class='other-image class-image'>" +
-						"<div class='option-highlight'>" +
-						"</div>" +
-						"<img class='viewer-image' src='" + category + url + "'>" +
-						"<h2 class='viewer-text'><span>" + title + "</span></h2>" +
-						"</div>";
-			$(image).appendTo(".viewer");
+		function onScroll(){ 
+			if (window.pageYOffset >= sticky) {
+				header.classList.add("nav-fixed");
+			} else {
+				header.classList.remove("nav-fixed");
+			}
 		}
 
-		function createVideo(url) {
-			$("#project-video").children("source").attr("src", url);
-			$("#project-image").css("display", "none");
-			$("#project-video").css("display", "block");
-			$("#project-video").attr("src", category + url);
-			var video = "<div class='other-image class-video' url='" + category + url + "'>" +
-						"<div class='option-highlight'>" +
-						"</div>" +
-						"<img class='viewer-video' src='../images/play-button.png'>" +
-						"</div>";
-			$(video).appendTo(".viewer");
+		function onTouch(){ 
+			if (window.pageYOffset >= touch) {
+				header.classList.add("nav-fixed");
+			} else {
+				header.classList.remove("nav-fixed");
+			}
 		}
 
 
-		
-		$('.footer-content').appendTo('.main-content');
 
-		var video = document.getElementById("project-video"); 
+        /*
+        Get Parameters
+        */
+        function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
 
-		$(document).on('click', '.class-image', function(){
-			selectOption(this);
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : sParameterName[1];
+                }
+            }
+        };
+
+
+
+        /*
+        Gallery Controls
+        */
+        // Image
+        var image = document.getElementById("image");
+        // Video
+        var video = document.getElementById("video");
+        // Zoom in and out
+        //var zoomin = document.getElementById("zoom-in");
+        //var zoomout = document.getElementById("zoom-out");
+        // Left and right
+        var left = document.getElementById("left");
+        var right = document.getElementById("right");
+
+        var l = 0;
+        var r = 0;
+
+        // Event listener for the zoom in button
+        /*zoomin.addEventListener("click", function() {
+            // Extract current scale
+            var zoom = $(".active-content").children("#image").css("transform");
+            var values = zoom.split('(')[1];
+            values = values.split(')')[0];
+            values = values.split(',');
+            var a = values[0];
+            var b = values[1];
+            var scale = Math.sqrt(a*a + b*b);
+            // Increase scale
+            zoom = scale + 0.2;
+            $(image).css("transform", "scale(" + zoom + ")");
+        });
+
+        // Event listener for the zoom out button
+        zoomout.addEventListener("click", function() {
+            //Extract current scale
+            var zoom = $(".active-content").children("#image").css("transform");
+            var values = zoom.split('(')[1];
+            values = values.split(')')[0];
+            values = values.split(',');
+            var a = values[0];
+            var b = values[1];
+            var scale = Math.sqrt(a*a + b*b);
+            // Decrease scale
+            zoom = scale - 0.2;
+            if(zoom < 0.2) {
+                zoom = 0.2;
+            }
+            $(image).css("transform", "scale(" + zoom + ")");
+        });*/
+
+        // Event listener for the left button
+        left.addEventListener("click", function() {
+            // Return to original scale
+            $("#image").css("transform", "scale(1.0)");
+            // Move to next content
+			var previousContent = $(".highlighted-content").prev();
+			if (!previousContent.hasClass("other-content")){
+				previousContent = $(".other-content").last();
+			}
+
+            l = (l + 1) % 5;
+            $(".image-left:eq(" + l + ")").css("display", "block");
+            if($(previousContent).children("div").hasClass("other-image")) {
+                var image = $(previousContent).children("div").attr("url");
+                $(".image-left:eq(" + l + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+            }
+            $(".image-left:eq(" + l + ")").addClass("slide-left");
+
+            selectOption(previousContent, 1, l);
+        });
+
+        // Event listener for the right button
+        right.addEventListener("click", function() {
+            // Return to original scale
+            $("#image").css("transform", "scale(1.0)");
+            // Move to next content
+            var nextContent = $(".highlighted-content").next();
+            if (!nextContent.hasClass("other-content")){
+                nextContent = $(".other-content").first();
+            }
+
+            r = (r + 1) % 5;
+            $(".image-right:eq(" + r + ")").css("display", "block");
+            if($(nextContent).children("div").hasClass("other-image")) {
+                var image = $(nextContent).children("div").attr("url");
+                $(".image-right:eq(" + r + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+            }
+            $(".image-right:eq(" + r + ")").addClass("slide-right");
+
+            selectOption(nextContent, 0, r);
+        });
+
+        // On click for any other image or video
+		$(document).on('click', '.other-content', function(){
+            // Return to original scale
+            $("#image").css("transform", "scale(1.0)");
+
+            if($(this).isAfter(".highlighted-content")) {
+                r = (r + 1) % 5;
+                $(".image-right:eq(" + r + ")").css("display", "block");
+                if($(this).children("div").hasClass("other-image")) {
+                    var image = $(this).children("div").attr("url");
+                    $(".image-right:eq(" + r + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+                }
+                $(".image-right:eq(" + r + ")").addClass("slide-right");
+
+                selectOption(this, 0, r);
+            } else if ($(this).isBefore(".highlighted-content")) {
+                l = (l + 1) % 5;
+                $(".image-left:eq(" + l + ")").css("display", "block");
+                if($(this).children("div").hasClass("other-image")) {
+                    var image = $(this).children("div").attr("url");
+                    $(".image-left:eq(" + l + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+                }
+                $(".image-left:eq(" + l + ")").addClass("slide-left");
+
+                selectOption(this, 1, l);
+            }
 		});
-		$(document).on('click', '.class-video', function(){
-			selectVideo(this);
-		});
+
+        $.fn.isAfter = function(sel) {
+            return this.prevAll(sel).length !== 0;
+        }
+        $.fn.isBefore = function(sel) {
+            return this.nextAll(sel).length !== 0;
+        }
+
+        function selectOption(option, left, num) {
+            if($(option).children("div").hasClass("other-image")) {
+                // Select Image
+                setTimeout(() => {
+                    if(left) $(".image-left:eq(" + num + ")").css("display", "none");
+                    else $(".image-right:eq(" + num + ")").css("display", "none");
+                    var image = $(option).children("div").attr("url");
+                    $("#image").attr("src", image);
+                    if(left) $(".image-left:eq(" + num + ")").removeClass("slide-left");
+                    else $(".image-right:eq(" + num + ")").removeClass("slide-right");
+                }, 1000);
+
+                $(".highlighted-content").removeClass("highlighted-content");
+                $(option).addClass("highlighted-content");
+
+                $(".current-video").removeClass("active-content");
+                $(".current-image").addClass("active-content");
+
+                if(!video.paused) {
+                    video.pause();
+                }
+            }
+            else if($(option).children("div").hasClass("other-video")) {
+                // Select Video
+                var videoO = $(option).children("div").attr("url");
+                $("#video").children("source").attr("src", videoO).stop(true,true).hide().fadeIn();
+
+                $(".highlighted-content").removeClass("highlighted-content");
+                $(option).addClass("highlighted-content");
+
+                $(".current-image").removeClass("active-content");
+                $(".current-video").addClass("active-content");
+                
+                if(video.paused) {
+				    video.play();
+                }
+            }
+        }
+
+
+        /*
+        Video Controls
+        */
+
+        // Video
+        var video = document.getElementById("video");
+        // Buttons
+        var playButton = document.getElementById("play-pause");
+        var muteButton = document.getElementById("mute");
+        var fullScreenButton = document.getElementById("full-screen");
+        // Sliders
+        var seekBar = document.getElementById("seek-bar");
+        var volumeBar = document.getElementById("volume-bar");
+
+        // Event listener for the play/pause button
+        playButton.addEventListener("click", function() {
+            if (video.paused == true) {
+                // Play the video
+                video.play();
+
+                // Update the button text to 'Pause'
+                playButton.innerHTML = "Pause";
+            } else {
+                // Pause the video
+                video.pause();
+
+                // Update the button text to 'Play'
+                playButton.innerHTML = "Play";
+            }
+        });
+
+        // Event listener for the mute button
+        muteButton.addEventListener("click", function() {
+            if (video.muted == false) {
+                // Mute the video
+                video.muted = true;
+
+                // Update the button text
+                muteButton.innerHTML = "Unmute";
+
+                $(muteButton).addClass("#video-muted");
+            } else {
+                // Unmute the video
+                video.muted = false;
+
+                // Update the button text
+                muteButton.innerHTML = "Mute";
+
+                $(muteButton).removeClass("video-muted");
+            }
+        });
+
+        // Event listener for the full-screen button
+        fullScreenButton.addEventListener("click", function() {
+            if (video.requestFullscreen) {
+                video.requestFullscreen();
+            } else if (video.mozRequestFullScreen) {
+                video.mozRequestFullScreen(); // Firefox
+            } else if (video.webkitRequestFullscreen) {
+                video.webkitRequestFullscreen(); // Chrome and Safari
+            }
+        });
+
+        // Event listener for the seek bar
+        seekBar.addEventListener("change", function() {
+            // Calculate the new time
+            var time = video.duration * (seekBar.value / 100);
+            // Update the video time
+            video.currentTime = time;
+        });
+
+        // Update the seek bar as the video plays
+        video.addEventListener("timeupdate", function() {
+            // Calculate the slider value
+            var value = (100 / video.duration) * video.currentTime;
+            // Update the slider value
+            seekBar.value = value;
+        });
+
+        // Pause the video when the slider handle is being dragged
+        seekBar.addEventListener("mousedown", function() {
+            video.pause();
+        });
+
+        // Play the video when the slider handle is dropped
+        seekBar.addEventListener("mouseup", function() {
+            video.play();
+        });
+
+        // Event listener for the volume bar
+        volumeBar.addEventListener("change", function() {
+            // Update the video volume
+            video.volume = volumeBar.value;
+        });
+
+        // Allow the user to click on the video to pause/play
 		$(document).on('click', 'video', function(){
 			if(video.paused) {
 				video.play();
@@ -247,144 +481,138 @@
 				video.pause();
 			}
 		});
-			
-		$(".left-gradient").click(function() {
-			var previousImage = $(".image-highlight").parent().prev();
-			if (!previousImage.hasClass("other-image")){
-				previousImage = $(".other-image").last();
-			}
 
-			selectOption(previousImage);
-		});
-
-		$(".right-gradient").click(function() {
-			var nextImage = $(".image-highlight").parent().next();
-			if (!nextImage.hasClass("other-image")){
-				nextImage = $(".other-image").first();
-			}
-
-			selectOption(nextImage);
-		});
-
-		function selectImage(option) {
-			var image = $(option).children("img").attr("src");
-			$(".main-image img").attr("src", image).stop(true,true).hide().fadeIn()
-			$(".main-image h2").replaceWith($(option).children("h2").clone());
-
-			$(".image-highlight").removeClass("image-highlight");
-			$(option).children("div").addClass("image-highlight");
-
-			if($(".main-image").children(".viewer-text").children("span").text().length == 0) {
-				$(".main-image").children(".viewer-text").css("visibility", "hidden");
-			}
-
-			$("#project-image").css("display", "block");
-			$("#project-video").css("display", "none");
-			video.pause();
-		}
-
-		function selectVideo(option) {
-			$("#project-video").children("source").attr("src", $(option).attr("url"));
-
-			$(".image-highlight").removeClass("image-highlight");
-			$(option).children("div").addClass("image-highlight");
-
-			$("#project-image").css("display", "none");
-			$("#project-video").css("display", "block");
-			video.play();
-		}
-
-		function selectOption(option) {
-			if($(option).hasClass("class-image")) {
-				selectImage(option);
-			}
-			else if($(option).hasClass("class-video")) {
-				selectVideo(option);
-			}
-		}
+        // Play/pause and mute buttons
+        $("#video").on('play', function(){
+            if(!$(playButton).hasClass("video-playing"))
+                $(playButton).addClass("video-playing");
+        });
+        $("#video").on('pause', function(){
+            if($(playButton).hasClass("video-playing"))
+                $(playButton).removeClass("video-playing");
+        });
 
 
 
-		var header = document.getElementById("tab-header");
-		var menuIcon = document.getElementById("menu-icon");
-		var sticky = header.offsetTop - 20;
+        /*
+        Fill Project Data
+        */
+        getData(project, category);
 
-		var burger = document.getElementById("burger");
-		var burgerDown = false;
+        function getData(project, category) {
+			$.getJSON(category + '/category-info.json', function(data) {
+                var maxProjects = data.num;
+				$.each(data.project, function(i, p) {
+                    if(p.id == project) {
+                        /*$("#para1").text("ID: " + p.id);
+                        $("#para2").text("Title: " + p.title);
+                        
+						var title = "<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + p.title + " <hr></div>";
+                        $(title).appendTo(".page-title");
 
-		$(window).scroll(function () {
+                        $("#para3").text("Category: " + p.category);
+                        $("#para4").text("Location: " + p.location);
+                        $("#para5").text("Details: " + p.details);
+                        $("#para6").text("Other: " + p.other);*/
+                        var title = "<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + p.title + " <hr></div>";
+                        $(title).appendTo(".page-title");
+                        
+                        $.each(p.details, function(l,q) {
+                            var detail = "<p>" +
+                                            "<strong>" + q.head + "</strong><br/>" + q.body +
+                                        "</p>"
+			                $(detail).appendTo(".project-info");
+                        })
+                        $.each(p.videos, function(l,q) {
+                            var currvideo = "<source src=\"" + category + "/" + p.id + "/" + q.url + "\" type=\"video/mp4\">" +
+                                "Your browser doesn't support HTML5 video."
+			                $(currvideo).appendTo("#video");
 
-			if (window.pageYOffset >= sticky) {
-				header.classList.add("tabs-fixed");
-				menuIcon.classList.add("sticky");
-				burger.style.marginTop = "60px";
-			} else {
-				header.classList.remove("tabs-fixed");
-				menuIcon.classList.remove("sticky");
-				burger.style.marginTop = "40px";
-			}
-		});
+                            var videoO = "<div class=\"other-content\">" +
+                                "<div class=\"other-video\" url=\"" + q.url + "\"></div>" +
+                                "</div>"
+			                $(videoO).appendTo(".gallery");
+				            video.play();
+                        })
+                        $.each(p.images, function(l,q) {
+                            var image = "<div class=\"other-content\">" +
+                                "<div class=\"other-image\" style=\"background-image: url('" + category + "/" + p.id + "/" + q.url + "')\" url=\"" + category + "/" + p.id + "/" + q.url + "\"></div>" +
+                                "</div>"
+			                $(image).appendTo(".gallery");
+                        })
 
-		$("#menu-icon").click(function() {
-			if(burgerDown) {
-				burger.classList.remove("burger-dropdown-down");
-				burgerDown = false;
-			} else {
-				burger.classList.add("burger-dropdown-down");
-				burgerDown = true;
-			}
-		});
+                        $(".other-content").first().addClass("highlighted-content");
 
-		$("#menu-icon").hover(overburger, outburger);
-		function overburger (event) {
-			if(burgerDown) {
-				$(this).css("background", "url('../../../images/burger-menu.png')");
-				$(this).css("background-size", "cover");
-			} else {
-				$(this).css("background", "url(../../../images/burger-menu-active.png)");
-				$(this).css("background-size", "cover");
-			}
-		}
-		function outburger (event) {
-			if(burgerDown) {
-				$(this).css("background", "url(../../../images/burger-menu-active.png)");
-				$(this).css("background-size", "cover");
-			} else {
-				$(this).css("background", "url('../../../images/burger-menu.png')");
-				$(this).css("background-size", "cover");
-			}
+                        if($(".highlighted-content").children("div").hasClass("other-image")) {
+                            var image = $(".highlighted-content").children("div").attr("url");
+                            $("#image").attr("src", image);
+                            $(".current-image").addClass("active-content");
+                        }
+                        else if($(".highlighted-content").children("div").hasClass("other-video")) {
+                            var videoH = $(".highlighted-content").children("div").attr("url");
+                            $("#video").children("source").attr("src", videoH).stop(true,true).hide().fadeIn();
+                            $(".current-video").addClass("active-content");
+                        }
+
+                        updateHeight();
+
+                        // Setup project controls
+                        $.getJSON(category + '/category-info.json', function(data) {
+				            $.each(data.project, function(i, m) {
+								var prev = parseInt(p.idNum) - 1;
+								if(prev < 0) prev = parseInt(maxProjects) - 1;
+								var next = parseInt(p.idNum) + 1;
+								if(next == parseInt(maxProjects)) next = 0;
+                                if(m.idNum == prev) {
+                                    $(".controller-previous").parents().first().attr("href", "../projects/project.html?category=" + category + "&project=" + m.id);
+                                    $(".controller-previous > center > .controller-label").text(m.title);
+                                }
+                                else if(m.idNum == next) {
+                                    $(".controller-next").parents().first().attr("href", "../projects/project.html?category=" + category + "&project=" + m.id);
+                                    $(".controller-next > center > .controller-label").text(m.title);
+                                }
+                            });
+                        });
+
+                        $(".controller-home").parents().first().attr("href", "category.html?category=" + category);
+                        $(".controller-home > center > .controller-label").text(p.category);
+                    }
+     			});
+			});
 		};
 
-		$("#filter-dropdown-icon").click(function () {
-			if ($("#filter-dropdown-list").css('display') == 'block') {
-				$("#filter-dropdown-list").css("display", "none");
-				$(this).css("background", "url('../../../images/filter-menu-active.png')");
-				$(this).css("background-size", "cover");
-			} else {
-				$("#filter-dropdown-list").css("display", "block");
-				$(this).css("background", "url('../../../images/filter-menu.png')");
-				$(this).css("background-size", "cover");
-			}
-		});
 
-		$("#filter-dropdown-icon").hover(overfilters, outfilters);
-		function overfilters (event) {
-			if($("#filter-dropdown-list").css('display') == 'block') {
-				$(this).css("background", "url('../../../images/filter-menu.png')");
-				$(this).css("background-size", "cover");
-			} else {
-				$(this).css("background", "url('../../../images/filter-menu-active.png')");
-				$(this).css("background-size", "cover");
+
+        /*
+        Gallery Resize
+        */
+        $(window).ready(updateHeight);
+        $(window).resize(updateHeight);
+
+        function updateHeight() {
+            var div = $('.main-content');
+            var width = div.width();
+            
+            div.css('height', width * 0.5625);
+            
+            var widthOther = $(".other-content").first().width();
+            $(".other-content").each(function(i, obj) {
+                $(obj).css('height', widthOther * 0.5625);
+            });
+        }
+        
+        
+        
+        /*
+		Project Controller Buttons
+		*/
+		$(document).on({
+			mouseenter: function() {
+				$(this).addClass('hi-icon-active');
+			},
+			mouseleave: function() {
+				$('.hi-icon').removeClass('hi-icon-active');
 			}
-		}
-		function outfilters (event) {
-			if($("#filter-dropdown-list").css('display') == 'block') {
-				$(this).css("background", "url('../../../images/filter-menu-active.png')");
-				$(this).css("background-size", "cover");
-			} else {
-				$(this).css("background", "url('../../../images/filter-menu.png')");
-				$(this).css("background-size", "cover");
-			}
-		};
-		</script>
+		}, ".hi-icon");
+	</script>
 </html>

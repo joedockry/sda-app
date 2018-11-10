@@ -1,0 +1,52 @@
+{
+    "category": "dwellings-large",
+    "num": "1",
+    "project": [
+        {
+            "id": "letteragh",
+            "idNum": "0",
+            "title": "Barmley",
+            "category": "Dwellings Large",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Barmley"
+                },
+                {
+                    "head": "Description",
+                    "body": "High specification residential development in costal setting"
+                },
+                {
+                    "head": "Client",
+                    "body": "Nexus Homes"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "12 Detached Residences"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

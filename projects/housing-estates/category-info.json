@@ -1,0 +1,136 @@
+{
+    "category": "housing-estates",
+    "num": "3",
+    "project": [
+        {
+            "id": "gort-road",
+            "idNum": "0",
+            "title": "Gort Road",
+            "category": "Housing Estates",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Bothar Na Mias,<br/>Gort Rd.<br/>Kinvara,<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "24 unit residential development including four detached dwellings"
+                },
+                {
+                    "head": "Client",
+                    "body": "Mr. Michael Burke"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "thornberry",
+            "idNum": "1",
+            "title": "Thornberry",
+            "category": "Housing Estates",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Thornberry<br/>Barna<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "High specification residential development comprising 33 detached houses - incorporating 6 different house types & 3 one-off designs – and 25 townhouses in 5 two-storey blocks."
+                },
+                {
+                    "head": "Client",
+                    "body": "Tom McEvaddy Developments Ltd."
+                },
+                {
+                    "head": "Status",
+                    "body": "Complete"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "58 dwellings"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "carieal-mor",
+            "idNum": "2",
+            "title": "Cariéal Mór",
+            "category": "Housing Estates",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Cariéal Mór<br/>Castlegar<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Redevelopment of disused quarry site adjacent to ecologically sound area. High specification mixed development including apartments, townhouses, semi-detached houses, Crèche and retail units."
+                },
+                {
+                    "head": "Client",
+                    "body": "Cahermorris Developments"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "134 Residential Units"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

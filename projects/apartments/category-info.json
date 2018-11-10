@@ -1,0 +1,94 @@
+{
+    "category": "apartments",
+    "num": "2",
+    "project": [
+        {
+            "id": "lough-atalia",
+            "idNum": "0",
+            "title": "Lough Atalia",
+            "category": "Apartments",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Lough Atalial<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Multi  unit apartment building over ground level parking"
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "parkavara",
+            "idNum": "1",
+            "title": "Parakavara",
+            "category": "Apartments",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Parakavara<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Located within a historically and visually sensitive area in Galway City. The stonewalls at the boundary of the site are rated of local importance under the National Inventory of Architectural Heritage, and for this reason will be retained and restored, along with the culvert and the ruin with its turbine. These will become part of the landscaping testifying the former use of the site. "
+                },
+                {
+                    "head": "Client",
+                    "body": "Michael Monaghan"
+                },
+                {
+                    "head": "Status",
+                    "body": "Complete"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "37 Units"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

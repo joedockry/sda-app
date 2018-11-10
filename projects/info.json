@@ -1,0 +1,75 @@
+{
+    "num": "14",
+    "category": [
+        {
+            "id": "alterations-extensions-dwellings",
+            "idNum": "0",
+            "title": "Alterations & Extensions to Dwellings"
+        },
+        {
+            "id": "apartments",
+            "idNum": "1",
+            "title": "Apartments"
+        },
+        {
+            "id": "dwellings",
+            "idNum": "2",
+            "title": "Dwellings"
+        },
+        {
+            "id": "dwellings-large",
+            "idNum": "3",
+            "title": "Dwellings Large"
+        },
+        {
+            "id": "education",
+            "idNum": "4",
+            "title": "Education"
+        },
+        {
+            "id": "healthcare",
+            "idNum": "5",
+            "title": "Healthcare"
+        },
+        {
+            "id": "heritage-conservation",
+            "idNum": "6",
+            "title": "Heritage Conservation"
+        },
+        {
+            "id": "hotels",
+            "idNum": "7",
+            "title": "Hotels"
+        },
+        {
+            "id": "housing-estates",
+            "idNum": "8",
+            "title": "Housing Estates"
+        },
+        {
+            "id": "multiuse",
+            "idNum": "9",
+            "title": "Multiuse"
+        },
+        {
+            "id": "offices",
+            "idNum": "10",
+            "title": "Offices"
+        },
+        {
+            "id": "pubs-restaurants",
+            "idNum": "11",
+            "title": "Pubs & Restaurants"
+        },
+        {
+            "id": "retail-highstreet",
+            "idNum": "12",
+            "title": "Retail Highstreet"
+        },
+        {
+            "id": "retail-large",
+            "idNum": "13",
+            "title": "Retail Large"
+        }
+    ]
+}

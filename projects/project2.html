@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>SEAN DOCKRY & ASSOCIATES</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16">
+        <link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+		</script>
+    </head>
+    <body>
+        <header id="navigation-bar">
+			<nav>
+				<logo></logo>
+				<div class="logo-fixed">Sea&#769;n Dockry and Associates</div>
+				<div class="tabs">
+					<ul class="tabs-list">
+					  	<li id="home" class="tab selected-tab"><a class="tab-link" href="../test.html">Home</a></li><!--
+				   		--><li id="services" class="tab"><a class="tab-link" href="../services.html">Services</a></li><!--
+				   		--><li id="about" class="tab"><a class="tab-link" href="../about.html">About</a></li><!--
+				   		--><li id="contact" class="tab"><a class="tab-link" href="../contact.html">Contact</a></li>
+					  	<hr />
+					</ul>
+				</div>
+				<burger>
+					<input type="checkbox" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<ul class="burger-menu">
+						<li id="burger-home" class="burger-tab burger-selected-item"><a class="burger-tab-link" href="../test.html">Home</a></li>
+						<li id="burger-services" class="burger-tab"><a class="burger-tab-link" href="../services.html">Services</a></li>
+						<li id="burger-about" class="burger-tab"><a class="burger-tab-link" href="../about.html">About</a></li>
+						<li id="burger-contact" class="burger-tab"><a class="burger-tab-link" href="../contact.html">Contact</a></li>
+						<div id="burger-select"></div>
+					</ul>
+				</burger>
+			</nav>
+		</header>
+        <div class="container">
+			<div class="page-title">
+            </div>
+            <div class="content">
+                <div class="gallery">
+                    <div class="main-content">
+                        <div id="left" class="left-nav"></div>
+                        <div id="right" class="right-nav"></div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <p id="para1">&nbsp;</p>
+                    <p id="para2">&nbsp;</p>
+                    <p id="para3">&nbsp;</p>
+                    <p id="para4">&nbsp;</p>
+                    <p id="para5">&nbsp;</p>
+                    <p id="para6">&nbsp;</p>
+                    <p id="para7">&nbsp;</p>
+                    <p id="para8">&nbsp;</p>
+                    <p id="para9">&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-controller">
+            <a href="../alterations-extensions-dwellings/category.html">
+                <div class="controller-previous project-control">
+                    <center><div class="hi-icon hi-icon-archive"><div class="icon-img"></div></div></center>
+                    <center><div class="controller-label">Retail Highstreet</div></center>
+                </div>
+            </a>
+            <a href="../test.html">
+                <div class="controller-home project-control">
+                    <center><div class="hi-icon hi-icon-archive"><div class="icon-grid"></div></div></center>
+                    <center><div class="controller-label">Projects</div></center>
+                </div>
+            </a>
+            <a href="../alterations-extensions-dwellings/category.html">
+                <div class="controller-next project-control">
+                    <center><div class="hi-icon hi-icon-archive rotate-180"><div class="icon-img"></div></div></center>
+                    <center><div class="controller-label">Apartments</div></center>
+                </div>
+            </a>
+        </div>
+        <footer>
+			<div class="footer-title">
+				Sea&#769;n Dockry and Associates
+			</div>
+			<div class="footer-social">
+				<i class="fa fa-facebook-square social-media" style="font-size:65px"></i>
+				<i class="fa fa-twitter-square social-media" style="font-size:65px"></i>
+				<i class="fa fa-envelope-square social-media" style="font-size:65px"></i>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-info">
+                    <div class="icon">
+                        <center>
+                            <i class="fa fa-map-marker" style="font-size:24px"></i>
+                        </center>
+                    </div>
+                    <div>Second Floor, Corbett House, Shoemaker Lane, Edward Square, Galway</div>
+                </div>
+                <div class="footer-info">
+                    <div class="icon">
+                        <center>
+                            <i class="fa fa-phone" style="font-size:24px"></i>
+                        </center>
+                    </div>
+                    <div>+353 (0)91 568522</div>
+                </div>
+                <div class="footer-info">
+                    <div class="icon">
+                        <center>
+                            <i class="fa fa-envelope" style="font-size:24px"></i>
+                        </center>
+                    </div>
+                    <div>mail@sdaarchitects.ie</div>
+                </div>
+			</div>
+		</footer>
+	</body>
+	</html>
+	<script>
+
+        var category = getUrlParameter("category");
+        var project = getUrlParameter("project");
+
+		/*
+		Sticky Header Controller
+		*/
+
+		var header = document.getElementById("navigation-bar");
+		var sticky = header.offsetTop + 40;
+		var touch = header.offsetTop + 15;
+
+		$(document.body).on('touchmove', onTouch); // for mobile
+		$(window).scroll(onScroll); 
+
+		function onScroll(){ 
+			if (window.pageYOffset >= sticky) {
+				header.classList.add("nav-fixed");
+			} else {
+				header.classList.remove("nav-fixed");
+			}
+		}
+
+		function onTouch(){ 
+			if (window.pageYOffset >= touch) {
+				header.classList.add("nav-fixed");
+			} else {
+				header.classList.remove("nav-fixed");
+			}
+		}
+
+
+
+        /*
+        Get Parameters
+        */
+        function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : sParameterName[1];
+                }
+            }
+        };
+
+
+
+        /*
+        Gallery Controls
+        */
+        // Image
+        var image = document.getElementById("image");
+        // Video
+        var video = document.getElementById("video");
+        // Zoom in and out
+        //var zoomin = document.getElementById("zoom-in");
+        //var zoomout = document.getElementById("zoom-out");
+        // Left and right
+        var left = document.getElementById("left");
+        var right = document.getElementById("right");
+
+        var l = 0;
+        var r = 0;
+
+        // Event listener for the zoom in button
+        /*zoomin.addEventListener("click", function() {
+            // Extract current scale
+            var zoom = $(".active-content").children("#image").css("transform");
+            var values = zoom.split('(')[1];
+            values = values.split(')')[0];
+            values = values.split(',');
+            var a = values[0];
+            var b = values[1];
+            var scale = Math.sqrt(a*a + b*b);
+            // Increase scale
+            zoom = scale + 0.2;
+            $(image).css("transform", "scale(" + zoom + ")");
+        });
+
+        // Event listener for the zoom out button
+        zoomout.addEventListener("click", function() {
+            //Extract current scale
+            var zoom = $(".active-content").children("#image").css("transform");
+            var values = zoom.split('(')[1];
+            values = values.split(')')[0];
+            values = values.split(',');
+            var a = values[0];
+            var b = values[1];
+            var scale = Math.sqrt(a*a + b*b);
+            // Decrease scale
+            zoom = scale - 0.2;
+            if(zoom < 0.2) {
+                zoom = 0.2;
+            }
+            $(image).css("transform", "scale(" + zoom + ")");
+        });*/
+
+        // Event listener for the left button
+        left.addEventListener("click", function() {
+            // Return to original scale
+            $("#image").css("transform", "scale(1.0)");
+            // Move to next content
+			var previousContent = $(".highlighted-content").prev();
+			if (!previousContent.hasClass("other-content")){
+				previousContent = $(".other-content").last();
+			}
+
+            l = (l + 1) % 5;
+            $(".image-left:eq(" + l + ")").css("display", "block");
+            if($(previousContent).children("div").hasClass("other-image")) {
+                var image = $(previousContent).children("div").attr("url");
+                $(".image-left:eq(" + l + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+            }
+            $(".image-left:eq(" + l + ")").addClass("slide-left");
+
+            //selectOption(previousContent, 1, l);
+            previousSlide();
+        });
+
+        // Event listener for the right button
+        right.addEventListener("click", function() {
+            // Return to original scale
+            $("#image").css("transform", "scale(1.0)");
+            // Move to next content
+            var nextContent = $(".highlighted-content").next();
+            if (!nextContent.hasClass("other-content")){
+                nextContent = $(".other-content").first();
+            }
+
+            r = (r + 1) % 5;
+            $(".image-right:eq(" + r + ")").css("display", "block");
+            if($(nextContent).children("div").hasClass("other-image")) {
+                var image = $(nextContent).children("div").attr("url");
+                $(".image-right:eq(" + r + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+            }
+            $(".image-right:eq(" + r + ")").addClass("slide-right");
+
+            //selectOption(nextContent, 0, r);
+            nextSlide();
+        });
+
+        // On click for any other image or video
+		$(document).on('click', '.other-content', function(){
+            // Return to original scale
+            $("#image").css("transform", "scale(1.0)");
+
+            if($(this).isAfter(".highlighted-content")) {
+                r = (r + 1) % 5;
+                $(".image-right:eq(" + r + ")").css("display", "block");
+                if($(this).children("div").hasClass("other-image")) {
+                    var image = $(this).children("div").attr("url");
+                    $(".image-right:eq(" + r + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+                }
+                $(".image-right:eq(" + r + ")").addClass("slide-right");
+
+                selectOption(this, 0, r);
+            } else if ($(this).isBefore(".highlighted-content")) {
+                l = (l + 1) % 5;
+                $(".image-left:eq(" + l + ")").css("display", "block");
+                if($(this).children("div").hasClass("other-image")) {
+                    var image = $(this).children("div").attr("url");
+                    $(".image-left:eq(" + l + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+                }
+                $(".image-left:eq(" + l + ")").addClass("slide-left");
+
+                selectOption(this, 1, l);
+            }
+		});
+
+        $.fn.isAfter = function(sel) {
+            return this.prevAll(sel).length !== 0;
+        }
+        $.fn.isBefore = function(sel) {
+            return this.nextAll(sel).length !== 0;
+        }
+
+        function selectOption(option, left, num) {
+            if($(option).children("div").hasClass("other-image")) {
+                // Select Image
+                setTimeout(() => {
+                    if(left) $(".image-left:eq(" + num + ")").css("display", "none");
+                    else $(".image-right:eq(" + num + ")").css("display", "none");
+                    var image = $(option).children("div").attr("url");
+                    $("#image").attr("src", image);
+                    if(left) $(".image-left:eq(" + num + ")").removeClass("slide-left");
+                    else $(".image-right:eq(" + num + ")").removeClass("slide-right");
+                }, 1000);
+
+                $(".highlighted-content").removeClass("highlighted-content");
+                $(option).addClass("highlighted-content");
+
+                $(".current-video").removeClass("active-content");
+                $(".current-image").addClass("active-content");
+
+                if(!video.paused) {
+                    video.pause();
+                }
+            }
+            else if($(option).children("div").hasClass("other-video")) {
+                // Select Video
+                var videoO = $(option).children("div").attr("url");
+                $("#video").children("source").attr("src", videoO).stop(true,true).hide().fadeIn();
+
+                $(".highlighted-content").removeClass("highlighted-content");
+                $(option).addClass("highlighted-content");
+
+                $(".current-image").removeClass("active-content");
+                $(".current-video").addClass("active-content");
+                
+                if(video.paused) {
+				    video.play();
+                }
+            }
+        }
+
+
+
+        /*
+        Fill Project Data
+        */
+        getData(project, category);
+
+        function getData(project, category) {
+			$.getJSON(category + '/category-info.json', function(data) {
+                var maxProjects = data.num;
+				$.each(data.project, function(i, p) {
+                    if(p.id == project) {
+                        $("#para1").text("ID: " + p.id);
+                        $("#para2").text("Title: " + p.title);
+                        
+						var title = "<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + p.title + " <hr></div>";
+                        $(title).appendTo(".page-title");
+
+                        $("#para3").text("Category: " + p.category);
+                        $("#para4").text("Location: " + p.location);
+                        $("#para5").text("Details: " + p.details);
+                        $("#para6").text("Other: " + p.other);
+                        $.each(p.videos, function(l,q) {
+                            var currvideo = "<div class=\"slide slide-fade\">" +
+                                                "<video id=\"video\">" +
+                                                    "<source src=\"" + category + "/" + p.id + "/" + q.url + "\" type=\"video/mp4\">" +
+                                                    "Your browser doesn't support HTML5 video." +
+                                                "</video>" +
+                                                "<div id=\"video-controls\">" +
+                                                    "<input type=\"button\" id=\"play-pause\" class=\"play-pause\"></input>" +
+                                                    "<div class=\"input-bar-controller\" style=\"width: 50%;\">" +
+                                                        "<div style=\"display: table-cell;vertical-align: middle;\">" +
+                                                            "<input type=\"range\" id=\"seek-bar\" class=\"seek-bar\" value=\"0\">" +
+                                                        "</div>" +
+                                                    "</div>" +
+                                                    "<input type=\"button\" id=\"mute\" class=\"mute\"></input>" +
+                                                    "<div class=\"input-bar-controller\" style=\"width: 20%;\">" +
+                                                        "<div style=\"display: table-cell;vertical-align: middle;\">" +
+                                                            "<input type=\"range\" id=\"volume-bar\" class=\"volume-bar\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">" +
+                                                        "</div>" +
+                                                    "</div>" +
+                                                    "<input type=\"button\" id=\"full-screen\" class=\"full-screen\"></input>" +
+                                                "</div>" +
+                                            "</div>" +
+			                $(currvideo).prependTo(".main-content");
+
+                            var videoO = "<div class=\"other-content\">" +
+                                "<div class=\"other-video\" url=\"" + q.url + "\"></div>" +
+                                "</div>"
+			                $(videoO).appendTo(".main-content");
+                            /*var currvideo = "<source src=\"" + category + "/" + p.id + "/" + q.url + "\" type=\"video/mp4\">" +
+                                "Your browser doesn't support HTML5 video."
+			                $(currvideo).appendTo("#video");
+
+                            var videoO = "<div class=\"other-content\">" +
+                                "<div class=\"other-video\" url=\"" + q.url + "\"></div>" +
+                                "</div>"
+			                $(videoO).appendTo(".gallery");*/
+				            video.play();
+                        })
+                        $.each(p.images, function(l,q) {
+                            var image = "<div class=\"slide slide-fade\">" +
+                                            "<img class=\"slide-image\" src=\"" + category + "/" + p.id + "/" + q.url + "\" style=\"width:100%\">" +
+                                        "</div>";
+                            $(image).prependTo(".main-content");
+
+                            var imageO = "<div class=\"other-content\">" +
+                                            "<div class=\"other-image\" style=\"background-image: url('" + category + "/" + p.id + "/" + q.url + "')\" url=\"" + category + "/" + p.id + "/" + q.url + "\"></div>" +
+                                        "</div>";
+                            $(imageO).appendTo(".main-content");
+                            /*var image = "<div class=\"other-content\">" +
+                                "<div class=\"other-image\" style=\"background-image: url('" + category + "/" + p.id + "/" + q.url + "')\" url=\"" + category + "/" + p.id + "/" + q.url + "\"></div>" +
+                                "</div>"
+			                $(image).appendTo(".gallery");*/
+                        })
+
+                        $(".other-content").first().addClass("highlighted-content");
+
+                        if($(".highlighted-content").children("div").hasClass("other-image")) {
+                            var image = $(".highlighted-content").children("div").attr("url");
+                            $("#image").attr("src", image);
+                            $(".current-image").addClass("active-content");
+                        }
+                        else if($(".highlighted-content").children("div").hasClass("other-video")) {
+                            var videoH = $(".highlighted-content").children("div").attr("url");
+                            $("#video").children("source").attr("src", videoH).stop(true,true).hide().fadeIn();
+                            $(".current-video").addClass("active-content");
+                        }
+
+                        updateHeight();
+
+                        // Setup project controls
+                        $.getJSON(category + '/category-info.json', function(data) {
+				            $.each(data.project, function(i, m) {
+								var prev = parseInt(p.idNum) - 1;
+								if(prev < 0) prev = parseInt(maxProjects) - 1;
+								var next = parseInt(p.idNum) + 1;
+								if(next == parseInt(maxProjects)) next = 0;
+                                if(m.idNum == prev) {
+                                    $(".controller-previous").parents().first().attr("href", "../projects/project.html?category=" + category + "&project=" + m.id);
+                                    $(".controller-previous > center > .controller-label").text(m.title);
+                                }
+                                else if(m.idNum == next) {
+                                    $(".controller-next").parents().first().attr("href", "../projects/project.html?category=" + category + "&project=" + m.id);
+                                    $(".controller-next > center > .controller-label").text(m.title);
+                                }
+                            });
+                        });
+
+                        $(".controller-home").parents().first().attr("href", "category.html?category=" + category);
+                        $(".controller-home > center > .controller-label").text(p.category);
+                    }
+     			});
+			});
+		};
+
+
+
+        /*
+        Gallery Resize
+        */
+        $(window).ready(updateHeight);
+        $(window).resize(updateHeight);
+
+        function updateHeight() {
+            var div = $('.main-content');
+            var width = div.width();
+            
+            div.css('height', width * 0.5625);
+            
+            var widthOther = $(".other-content").first().width();
+            $(".other-content").each(function(i, obj) {
+                $(obj).css('height', widthOther * 0.5625);
+            });
+        }
+        
+        
+        
+        /*
+		Project Controller Buttons
+		*/
+		$(document).on({
+			mouseenter: function() {
+				$(this).addClass('hi-icon-active');
+			},
+			mouseleave: function() {
+				$('.hi-icon').removeClass('hi-icon-active');
+			}
+		}, ".hi-icon");
+
+
+
+        
+        /*
+        Carousel
+        */
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function previousSlide() {
+            showSlides(slideIndex += -1);
+        }
+
+        function nextSlide() {
+            showSlides(slideIndex += 1);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slide");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" slide-active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+        }
+
+
+/*
+Video Controls
+*/
+
+// Video
+var video = document.getElementById("video");
+// Buttons
+var playButton = document.getElementById("play-pause");
+var muteButton = document.getElementById("mute");
+var fullScreenButton = document.getElementById("full-screen");
+// Sliders
+var seekBar = document.getElementById("seek-bar");
+var volumeBar = document.getElementById("volume-bar");
+
+// Event listener for the play/pause button
+playButton.addEventListener("click", function() {
+    if (video.paused == true) {
+        // Play the video
+        video.play();
+
+        // Update the button text to 'Pause'
+        playButton.innerHTML = "Pause";
+    } else {
+        // Pause the video
+        video.pause();
+
+        // Update the button text to 'Play'
+        playButton.innerHTML = "Play";
+    }
+});
+
+// Event listener for the mute button
+muteButton.addEventListener("click", function() {
+    if (video.muted == false) {
+        // Mute the video
+        video.muted = true;
+
+        // Update the button text
+        muteButton.innerHTML = "Unmute";
+
+        $(muteButton).addClass("#video-muted");
+    } else {
+        // Unmute the video
+        video.muted = false;
+
+        // Update the button text
+        muteButton.innerHTML = "Mute";
+
+        $(muteButton).removeClass("video-muted");
+    }
+});
+
+// Event listener for the full-screen button
+fullScreenButton.addEventListener("click", function() {
+    if (video.requestFullscreen) {
+        video.requestFullscreen();
+    } else if (video.mozRequestFullScreen) {
+        video.mozRequestFullScreen(); // Firefox
+    } else if (video.webkitRequestFullscreen) {
+        video.webkitRequestFullscreen(); // Chrome and Safari
+    }
+});
+
+// Event listener for the seek bar
+seekBar.addEventListener("change", function() {
+    // Calculate the new time
+    var time = video.duration * (seekBar.value / 100);
+    // Update the video time
+    video.currentTime = time;
+});
+
+// Update the seek bar as the video plays
+video.addEventListener("timeupdate", function() {
+    // Calculate the slider value
+    var value = (100 / video.duration) * video.currentTime;
+    // Update the slider value
+    seekBar.value = value;
+});
+
+// Pause the video when the slider handle is being dragged
+seekBar.addEventListener("mousedown", function() {
+    video.pause();
+});
+
+// Play the video when the slider handle is dropped
+seekBar.addEventListener("mouseup", function() {
+    video.play();
+});
+
+// Event listener for the volume bar
+volumeBar.addEventListener("change", function() {
+    // Update the video volume
+    video.volume = volumeBar.value;
+});
+
+// Allow the user to click on the video to pause/play
+$(document).on('click', 'video', function(){
+    if(video.paused) {
+        video.play();
+    }
+    else {
+        video.pause();
+    }
+});
+
+// Play/pause and mute buttons
+$("#video").on('play', function(){
+    if(!$(playButton).hasClass("video-playing"))
+        $(playButton).addClass("video-playing");
+});
+$("#video").on('pause', function(){
+    if($(playButton).hasClass("video-playing"))
+        $(playButton).removeClass("video-playing");
+});
+	</script>
+</html>
