@@ -165,9 +165,9 @@
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="projects/category.html?category=pubs-restaurants">
-								<img src="projects/pubs-restaurants/cover.jpg">
-								<div>Pubs & Restaurants</div>
+							<a href="projects/category.html?category=bars-restaurants">
+								<img src="projects/bars-restaurants/cover.jpg">
+								<div>Bars & Restaurants</div>
 							</a>
 						</div>
 						<div class="grid-item">

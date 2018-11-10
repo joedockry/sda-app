@@ -1,12 +1,12 @@
 {
-    "category": "pubs-restaurants",
+    "category": "bars-restaurants",
     "num": "2",
     "project": [
         {
             "id": "bar-903",
             "idNum": "0",
             "title": "Bar 903",
-            "category": "Pubs and Resaurants",
+            "category": "Bars and Resaurants",
             "details" : [
                 {
                     "head": "Location",
@@ -48,7 +48,7 @@
             "id": "the-kings-head",
             "idNum": "1",
             "title": "The Kings Head",
-            "category": "Pubs and Resaurants",
+            "category": "Bars and Resaurants",
             "details" : [
                 {
                     "head": "Location",
