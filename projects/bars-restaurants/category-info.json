@@ -3,26 +3,26 @@
     "num": "2",
     "project": [
         {
-            "id": "bar-903",
+            "id": "carlton-casino-club",
             "idNum": "0",
-            "title": "Bar 903",
+            "title": "Carlton Casino Club",
             "category": "Bars and Resaurants",
             "details" : [
                 {
                     "head": "Location",
-                    "body": "Bar 903<br/>Eyre Square<br/>Co. Galway"
+                    "body": "The Kings Head<br/>Highstreet<br/>Galway"
                 },
                 {
                     "head": "Description",
-                    "body": "Refurbishment of a well-established city centre bar premises."
+                    "body": "The Kings Head pub is a well-established pub located within a protected structure in the heart of Galway city. The work carried out involved refurbishment of the existing bar premises, removing any ‘mock’ medieval elements, and providing complementary furnishings to highlight the original features."
                 },
                 {
                     "head": "Status",
-                    "body": "Completed June 2005"
+                    "body": "Phased works began Spring 2004"
                 },
                 {
                     "head": "No of Units/Area",
-                    "body": "Approx 212m2"
+                    "body": "Approx 558m2"
                 }
             ],
             "images": [
@@ -45,8 +45,54 @@
             ]
         },
         {
-            "id": "the-kings-head",
+            "id": "the-dough-bros",
             "idNum": "1",
+            "title": "The Dough Bro's",
+            "category": "Bars and Resaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "The Kings Head<br/>Highstreet<br/>Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "The Kings Head pub is a well-established pub located within a protected structure in the heart of Galway city. The work carried out involved refurbishment of the existing bar premises, removing any ‘mock’ medieval elements, and providing complementary furnishings to highlight the original features."
+                },
+                {
+                    "head": "Status",
+                    "body": "Phased works began Spring 2004"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "Approx 558m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-huntsman-inn",
+            "idNum": "2",
             "title": "The Kings Head",
             "category": "Bars and Resaurants",
             "details" : [
@@ -65,6 +111,86 @@
                 {
                     "head": "No of Units/Area",
                     "body": "Approx 558m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-kings-head",
+            "idNum": "3",
+            "title": "The Kings Head",
+            "category": "Bars and Resaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "The Kings Head<br/>Highstreet<br/>Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "The Kings Head pub is a well-established pub located within a protected structure in the heart of Galway city. The work carried out involved refurbishment of the existing bar premises, removing any ‘mock’ medieval elements, and providing complementary furnishings to highlight the original features."
+                },
+                {
+                    "head": "Status",
+                    "body": "Phased works began Spring 2004"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "Approx 558m2"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "bar-903",
+            "idNum": "4",
+            "title": "Bar 903",
+            "category": "Bars and Resaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "Bar 903<br/>Eyre Square<br/>Co. Galway"
+                },
+                {
+                    "head": "Description",
+                    "body": "Refurbishment of a well-established city centre bar premises."
+                },
+                {
+                    "head": "Status",
+                    "body": "Completed June 2005"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "Approx 212m2"
                 }
             ],
             "images": [
