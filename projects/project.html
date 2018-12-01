@@ -41,7 +41,7 @@
 				</burger>
 			</nav>
 		</header>
-        <div class="container">
+        <div class="container project-container">
 			<!--<div class="page-title">
             </div>-->
             <div class="content">
@@ -86,6 +86,8 @@
                     </div>
                 </div>
                 <div class="project-info">
+                        <div class="page-title right">
+                            </div>
                     <!--<p id="para1">&nbsp;</p>
                     <p id="para2">&nbsp;</p>
                     <p id="para3">&nbsp;</p>
@@ -514,7 +516,9 @@
                         $("#para4").text("Location: " + p.location);
                         $("#para5").text("Details: " + p.details);
                         $("#para6").text("Other: " + p.other);*/
-                        var title = "<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + p.title + " <hr></div>";
+                        //Full width version
+                        //var title = "<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + p.title + " <hr></div>";
+                        var title = "<div>&nbsp;&nbsp;" + p.title + " <hr></div>";
                         $(title).appendTo(".page-title");
                         
                         $.each(p.details, function(l,q) {
