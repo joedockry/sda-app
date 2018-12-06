@@ -86,8 +86,11 @@
                     </div>
                 </div>
                 <div class="project-info">
-                        <div class="page-title right">
-                            </div>
+                    <div class="page-title right"></div>
+                    <div class="link-video" onclick="OpenVideo()">
+                        <div class="link-video-text">&nbsp;&nbsp;&nbsp;&nbsp;Watch Video</div>
+                        <div class="link-video-icon"></div>
+                    </div>
                     <!--<p id="para1">&nbsp;</p>
                     <p id="para2">&nbsp;</p>
                     <p id="para3">&nbsp;</p>
@@ -155,7 +158,15 @@
                     <div>mail@sdaarchitects.ie</div>
                 </div>
 			</div>
-		</footer>
+        </footer>
+        <div class="video-overlay">
+            <div class="video-overlay-close" onclick="CloseVideo()">
+                X
+            </div>
+            <div class="video-embedded">
+                <iframe id="myIframe" width="500" height="300" style="border:none;"></iframe>
+            </div>
+        </div>
 	</body>
 	</html>
 	<script>
@@ -528,7 +539,7 @@
 			                $(detail).appendTo(".project-info");
                         })
                         $.each(p.videos, function(l,q) {
-                            var currvideo = "<source src=\"" + category + "/" + p.id + "/" + q.url + "\" type=\"video/mp4\">" +
+                            /*var currvideo = "<source src=\"" + category + "/" + p.id + "/" + q.url + "\" type=\"video/mp4\">" +
                                 "Your browser doesn't support HTML5 video."
 			                $(currvideo).appendTo("#video");
 
@@ -536,7 +547,11 @@
                                 "<div class=\"other-video\" url=\"" + q.url + "\"></div>" +
                                 "</div>"
 			                $(videoO).appendTo(".gallery");
-				            video.play();
+				            video.play();*/
+
+                            var url = "https://www.youtube.com/embed/" + q.id;
+                            $('#myIframe').attr('src', url)
+                            $(".link-video").addClass("active-content");
                         })
                         $.each(p.images, function(l,q) {
                             var image = "<div class=\"other-content\">" +
@@ -618,5 +633,33 @@
 				$('.hi-icon').removeClass('hi-icon-active');
 			}
 		}, ".hi-icon");
+
+
+
+        /*
+        Popup video
+        */
+        var vh = $(window).height();
+        var vw = $(window).width();
+        if(vw > 1000) {
+            $('#myIframe').attr('width', 900);
+            $('#myIframe').attr('height', 600);
+        }
+        else if(vw > 500) {
+            $('#myIframe').attr('width', 550);
+            $('#myIframe').attr('height', 320);
+        }
+        else {
+            $('#myIframe').attr('width', 0);
+            $('#myIframe').attr('height', 0);
+        }
+
+        function OpenVideo() {
+            $(".video-overlay").addClass("active-content");
+        }
+
+        function CloseVideo() {
+            $(".video-overlay").removeClass("active-content");
+        }
 	</script>
 </html>
