@@ -1,0 +1,348 @@
+{
+    "category": "commercial",
+    "num": "9",
+    "project": [
+        {
+            "id": "arach-at-lochlea",
+            "idNum": "0",
+            "title": "Arach at Lochlea",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "aurora",
+            "idNum": "1",
+            "title": "Aurora",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "castleview",
+            "idNum": "2",
+            "title": "Castleview",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "hamilton-leonard",
+            "idNum": "3",
+            "title": "Hamilton Leonard",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "house-in-barna-1",
+            "idNum": "4",
+            "title": "House in Barna 1",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "house-in-barna-2",
+            "idNum": "5",
+            "title": "House in Barna 2",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "house-in-furbo",
+            "idNum": "6",
+            "title": "House in Furbo",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "mags-bothareen",
+            "idNum": "7",
+            "title": "Mags Bothareen",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "nee-house",
+            "idNum": "8",
+            "title": "Nee House",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        }
+    ]
+ }

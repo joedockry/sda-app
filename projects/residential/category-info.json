@@ -1,0 +1,310 @@
+{
+    "category": "residential",
+    "num": "8",
+    "project": [
+        {
+            "id": "bothar-na-mias",
+            "idNum": "0",
+            "title": "Bothar na Mias",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "brambles",
+            "idNum": "1",
+            "title": "Brambles",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "bushypark-lakeview",
+            "idNum": "2",
+            "title": "Bushypark Lakeview",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "caireal-mor",
+            "idNum": "3",
+            "title": "Caireal Mor",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "letteragh-road",
+            "idNum": "4",
+            "title": "Letteragh Road",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "lough-atalia-road",
+            "idNum": "5",
+            "title": "Lough Atalia Road",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "parkavara-apartments",
+            "idNum": "6",
+            "title": "Parkavara Apartments",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "thornberry",
+            "idNum": "7",
+            "title": "Thornberry",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        }
+    ]
+ }

@@ -95,91 +95,43 @@
 				<div class="row"> 
 					<div class="column">
 						<div class="grid-item">
-							<a href="projects/category.html?category=alterations-extensions-dwellings">
-								<img src="projects/alterations-extensions-dwellings/cover.jpg">
-								<div>Alterations & <br>Extensions to <br>Dwellings</div>
+							<a href="projects/category.html?category=commercial">
+								<img src="projects/commercial/cover.jpg">
+								<div>Commercial</div>
 							</a>
 						</div>
 						<div class="grid-item">
-							<a href="projects/category.html?category=apartments">
-								<img src="projects/apartments/cover.jpg">
-								<div>Apartments</div>
-							</a>
-						</div>
-						<div class="grid-item">
-							<a href="projects/category.html?category=dwellings-large">
-								<img src="projects/dwellings-large/cover.jpg">
-								<div>Dwellings Large</div>
-							</a>
-						</div>
-						<div class="grid-item">
-							<a href="projects/category.html?category=dwellings">
-								<img src="projects/dwellings/cover.jpg">
-								<div>Dwellings</div>
-							</a>
-						</div>
-						<div class="grid-item">
-							<a href="projects/category.html?category=education">
-								<img src="projects/education/cover.jpg">
-								<div>Education</div>
+							<a href="projects/category.html?category=residential">
+								<img src="projects/residential/cover.jpg">
+								<div>Residential</div>
 							</a>
 						</div>
 					</div>
 					<div class="column">
 						<div class="grid-item">
-							<a href="projects/category.html?category=healthcare">
-								<img src="projects/healthcare/cover.jpg">
-								<div>Healthcare</div>
+							<a href="projects/category.html?category=hotels-bars-restaurants">
+								<img src="projects/hotels-bars-restaurants/cover.jpg">
+								<div>Hotels, Bars & Restaurants</div>
+							</a>
+						</div>
+						<div class="grid-item">
+							<a href="projects/category.html?category=interior-design">
+								<img src="projects/interior-design/cover.jpg">
+								<div>Interior Design</div>
+							</a>
+						</div>
+					</div>
+					<div class="column">
+						<div class="grid-item">
+							<a href="projects/category.html?category=dwelling-houses">
+								<img src="projects/dwelling-houses/cover.jpg">
+								<div>Dwelling Houses</div>
 							</a>
 						</div>
 						<div class="grid-item">
 							<a href="projects/category.html?category=heritage-conservation">
 								<img src="projects/heritage-conservation/cover.jpg">
-								<div>Heritage Conservation</div>
-							</a>
-						</div>
-						<div class="grid-item">
-							<a href="projects/category.html?category=hotels">
-								<img src="projects/hotels/cover.jpg">
-								<div>Hotels</div>
-							</a>
-						</div>
-						<div class="grid-item">
-							<a href="projects/category.html?category=housing-estates">
-								<img src="projects/housing-estates/cover.jpg">
-								<div>Housing Estates</div>
-							</a>
-						</div>
-						<div class="grid-item">
-							<a href="projects/category.html?category=multiuse">
-								<img src="projects/multiuse/cover.jpg">
-								<div>Multiuse</div>
-							</a>
-						</div>
-					</div>
-					<div class="column">
-						<div class="grid-item">
-							<a href="projects/category.html?category=offices">
-								<img src="projects/offices/cover.jpg">
-								<div>Offices</div>
-							</a>
-						</div>
-						<div class="grid-item">
-							<a href="projects/category.html?category=bars-restaurants">
-								<img src="projects/bars-restaurants/cover.jpg">
-								<div>Bars & Restaurants</div>
-							</a>
-						</div>
-						<div class="grid-item">
-							<a href="projects/category.html?category=retail-large">
-								<img src="projects/retail-large/cover.jpg">
-								<div>Retail Large</div>
-							</a>
-						</div>
-						<div class="grid-item">
-							<a href="projects/category.html?category=retail-highstreet">
-								<img src="projects/retail-highstreet/cover.jpg">
-								<div>Retail Highstreet</div>
+								<div>Heritage / Conservation</div>
 							</a>
 						</div>
 					</div>

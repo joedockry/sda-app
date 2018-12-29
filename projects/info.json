@@ -1,75 +1,35 @@
 {
-    "num": "14",
+    "num": "6",
     "category": [
         {
-            "id": "alterations-extensions-dwellings",
+            "id": "commercial",
             "idNum": "0",
-            "title": "Alterations & Extensions to Dwellings"
+            "title": "Commercial"
         },
         {
-            "id": "apartments",
+            "id": "hotels-bars-restaurants",
             "idNum": "1",
-            "title": "Apartments"
+            "title": "Hotels, Bars & Restaurants"
         },
         {
-            "id": "dwellings",
+            "id": "dwelling-houses",
             "idNum": "2",
-            "title": "Dwellings"
+            "title": "Dwelling Houses"
         },
         {
-            "id": "dwellings-large",
+            "id": "residential",
             "idNum": "3",
-            "title": "Dwellings Large"
+            "title": "Residential"
         },
         {
-            "id": "education",
+            "id": "interior-design",
             "idNum": "4",
-            "title": "Education"
-        },
-        {
-            "id": "healthcare",
-            "idNum": "5",
-            "title": "Healthcare"
+            "title": "Interior Design"
         },
         {
             "id": "heritage-conservation",
-            "idNum": "6",
-            "title": "Heritage Conservation"
-        },
-        {
-            "id": "hotels",
-            "idNum": "7",
-            "title": "Hotels"
-        },
-        {
-            "id": "housing-estates",
-            "idNum": "8",
-            "title": "Housing Estates"
-        },
-        {
-            "id": "multiuse",
-            "idNum": "9",
-            "title": "Multiuse"
-        },
-        {
-            "id": "offices",
-            "idNum": "10",
-            "title": "Offices"
-        },
-        {
-            "id": "bars-restaurants",
-            "idNum": "11",
-            "title": "Bars & Restaurants"
-        },
-        {
-            "id": "retail-highstreet",
-            "idNum": "12",
-            "title": "Retail Highstreet"
-        },
-        {
-            "id": "retail-large",
-            "idNum": "13",
-            "title": "Retail Large"
+            "idNum": "5",
+            "title": "Heritage / Conservation"
         }
     ]
 }

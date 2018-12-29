@@ -1,0 +1,234 @@
+{
+    "category": "hotels-bars-restaurants",
+    "num": "6",
+    "project": [
+        {
+            "id": "athenry-hotel-raheen-woods",
+            "idNum": "0",
+            "title": "Athenry Hotel Raheen Woods",
+            "category": "Hotels, Bars & Restaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "claregalway-hotel",
+            "idNum": "1",
+            "title": "Claregalway Hotel",
+            "category": "Hotels, Bars & Restaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "menlo-park-hotel",
+            "idNum": "2",
+            "title": "Menlo Park Hotel",
+            "category": "Hotels, Bars & Restaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "tara-hotel",
+            "idNum": "3",
+            "title": "Tara Hotel",
+            "category": "Hotels, Bars & Restaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-dough-bros",
+            "idNum": "4",
+            "title": "The Dough Bros",
+            "category": "Hotels, Bars & Restaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-huntsman-inn",
+            "idNum": "5",
+            "title": "The Huntsman Inn",
+            "category": "Hotels, Bars & Restaurants",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        }
+    ]
+ }
