@@ -1,242 +1,10 @@
 {
     "category": "dwelling-houses",
-    "num": "9",
+    "num": "5",
     "project": [
         {
-            "id": "arach-at-lochlea",
-            "idNum": "0",
-            "title": "Arach at Lochlea",
-            "category": "Dwelling Houses",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                }
-            ]
-        },
-        {
-            "id": "aurora",
-            "idNum": "1",
-            "title": "Aurora",
-            "category": "Dwelling Houses",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                }
-            ]
-        },
-        {
-            "id": "castleview",
-            "idNum": "2",
-            "title": "Castleview",
-            "category": "Dwelling Houses",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                }
-            ]
-        },
-        {
-            "id": "hamilton-leonard",
-            "idNum": "3",
-            "title": "Hamilton Leonard",
-            "category": "Dwelling Houses",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                }
-            ]
-        },
-        {
-            "id": "house-in-barna-1",
-            "idNum": "4",
-            "title": "House in Barna 1",
-            "category": "Dwelling Houses",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                },
-                {
-                    "title": "Image 4",
-                    "url": "images/image-4.jpg"
-                },
-                {
-                    "title": "Image 5",
-                    "url": "images/image-5.jpg"
-                }
-            ]
-        },
-        {
-            "id": "house-in-barna-2",
-            "idNum": "5",
-            "title": "House in Barna 2",
-            "category": "Dwelling Houses",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                }
-            ]
-        },
-        {
             "id": "house-in-furbo",
-            "idNum": "6",
+            "idNum": "0",
             "title": "House in Furbo",
             "category": "Dwelling Houses",
             "details" : [
@@ -277,44 +45,12 @@
                 {
                     "title": "Image 5",
                     "url": "images/image-5.jpg"
-                },
-                {
-                    "title": "Image 6",
-                    "url": "images/image-6.jpg"
-                },
-                {
-                    "title": "Image 7",
-                    "url": "images/image-7.jpg"
-                },
-                {
-                    "title": "Image 8",
-                    "url": "images/image-8.jpg"
-                },
-                {
-                    "title": "Image 9",
-                    "url": "images/image-9.jpg"
-                },
-                {
-                    "title": "Image 10",
-                    "url": "images/image-10.jpg"
-                },
-                {
-                    "title": "Image 11",
-                    "url": "images/image-11.jpg"
-                },
-                {
-                    "title": "Image 12",
-                    "url": "images/image-12.jpg"
-                },
-                {
-                    "title": "Image 13",
-                    "url": "images/image-13.jpg"
                 }
             ]
         },
         {
             "id": "mags-bothareen",
-            "idNum": "7",
+            "idNum": "1",
             "title": "Mags Bothareen",
             "category": "Dwelling Houses",
             "details" : [
@@ -355,49 +91,13 @@
                 {
                     "title": "Image 5",
                     "url": "images/image-5.jpg"
-                },
-                {
-                    "title": "Image 6",
-                    "url": "images/image-6.jpg"
-                },
-                {
-                    "title": "Image 7",
-                    "url": "images/image-7.jpg"
-                },
-                {
-                    "title": "Image 8",
-                    "url": "images/image-8.jpg"
-                },
-                {
-                    "title": "Image 9",
-                    "url": "images/image-9.jpg"
-                },
-                {
-                    "title": "Image 10",
-                    "url": "images/image-10.jpg"
-                },
-                {
-                    "title": "Image 11",
-                    "url": "images/image-11.jpg"
-                },
-                {
-                    "title": "Image 12",
-                    "url": "images/image-12.jpg"
-                },
-                {
-                    "title": "Image 13",
-                    "url": "images/image-13.jpg"
-                },
-                {
-                    "title": "Image 14",
-                    "url": "images/image-14.jpg"
                 }
             ]
         },
         {
-            "id": "nee-house",
-            "idNum": "8",
-            "title": "Nee House",
+            "id": "house-in-barna-1",
+            "idNum": "2",
+            "title": "House in Barna 1",
             "category": "Dwelling Houses",
             "details" : [
                 {
@@ -429,6 +129,75 @@
                 {
                     "title": "Image 3",
                     "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ],
+            "videos": [
+                {
+                    "id": "qTM-Fn5wNSA"
+                }
+            ]
+        },
+        {
+            "id": "house-in-barna-2",
+            "idNum": "3",
+            "title": "House in Barna 2",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "arach-at-lochlea",
+            "idNum": "4",
+            "title": "Arach at Lochlea",
+            "category": "Dwelling Houses",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
                 }
             ]
         }

@@ -1,11 +1,11 @@
 {
     "category": "residential",
-    "num": "8",
+    "num": "7",
     "project": [
         {
-            "id": "bothar-na-mias",
+            "id": "lough-atalia-apartments",
             "idNum": "0",
-            "title": "Bothar na Mias",
+            "title": "Lough Atalia Apartments",
             "category": "Residential",
             "details" : [
                 {
@@ -37,12 +37,112 @@
                 {
                     "title": "Image 3",
                     "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "parkavara-apartments",
+            "idNum": "1",
+            "title": "Parkavara Apartments",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "thornberry",
+            "idNum": "2",
+            "title": "Thornberry",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "Location",
+                    "body": "<location>"
+                },
+                {
+                    "head": "Description",
+                    "body": "<description>"
+                },
+                {
+                    "head": "Status",
+                    "body": "<status>"
+                },
+                {
+                    "head": "No of Units/Area",
+                    "body": "<area>"
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
                 }
             ]
         },
         {
             "id": "brambley",
-            "idNum": "1",
+            "idNum": "3",
             "title": "Brambley",
             "category": "Residential",
             "details" : [
@@ -80,7 +180,7 @@
         },
         {
             "id": "bushypark-lakeview",
-            "idNum": "2",
+            "idNum": "4",
             "title": "Bushypark Lakeview",
             "category": "Residential",
             "details" : [
@@ -126,7 +226,7 @@
         },
         {
             "id": "carieal-mor",
-            "idNum": "3",
+            "idNum": "5",
             "title": "Cariéal Mór",
             "category": "Residential",
             "details" : [
@@ -168,7 +268,7 @@
         },
         {
             "id": "letteragh-road",
-            "idNum": "4",
+            "idNum": "6",
             "title": "Letteragh Road",
             "category": "Residential",
             "details" : [
@@ -209,216 +309,6 @@
                 {
                     "title": "Image 5",
                     "url": "images/image-5.jpg"
-                }
-            ]
-        },
-        {
-            "id": "lough-atalia-apartments",
-            "idNum": "5",
-            "title": "Lough Atalia Apartments",
-            "category": "Residential",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                },
-                {
-                    "title": "Image 4",
-                    "url": "images/image-4.jpg"
-                },
-                {
-                    "title": "Image 5",
-                    "url": "images/image-5.jpg"
-                },
-                {
-                    "title": "Image 6",
-                    "url": "images/image-6.jpg"
-                },
-                {
-                    "title": "Image 7",
-                    "url": "images/image-7.jpg"
-                },
-                {
-                    "title": "Image 8",
-                    "url": "images/image-8.jpg"
-                },
-                {
-                    "title": "Image 9",
-                    "url": "images/image-9.jpg"
-                },
-                {
-                    "title": "Image 10",
-                    "url": "images/image-10.jpg"
-                },
-                {
-                    "title": "Image 11",
-                    "url": "images/image-11.jpg"
-                },
-                {
-                    "title": "Image 12",
-                    "url": "images/image-12.jpg"
-                },
-                {
-                    "title": "Image 13",
-                    "url": "images/image-13.jpg"
-                }
-            ]
-        },
-        {
-            "id": "parkavara-apartments",
-            "idNum": "6",
-            "title": "Parkavara Apartments",
-            "category": "Residential",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                },
-                {
-                    "title": "Image 4",
-                    "url": "images/image-4.jpg"
-                },
-                {
-                    "title": "Image 5",
-                    "url": "images/image-5.jpg"
-                },
-                {
-                    "title": "Image 6",
-                    "url": "images/image-6.jpg"
-                },
-                {
-                    "title": "Image 7",
-                    "url": "images/image-7.jpg"
-                },
-                {
-                    "title": "Image 8",
-                    "url": "images/image-8.jpg"
-                }
-            ]
-        },
-        {
-            "id": "thornberry",
-            "idNum": "7",
-            "title": "Thornberry",
-            "category": "Residential",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                },
-                {
-                    "title": "Image 4",
-                    "url": "images/image-4.jpg"
-                },
-                {
-                    "title": "Image 5",
-                    "url": "images/image-5.jpg"
-                },
-                {
-                    "title": "Image 6",
-                    "url": "images/image-6.jpg"
-                },
-                {
-                    "title": "Image 7",
-                    "url": "images/image-7.jpg"
-                },
-                {
-                    "title": "Image 8",
-                    "url": "images/image-8.jpg"
-                },
-                {
-                    "title": "Image 9",
-                    "url": "images/image-9.jpg"
-                },
-                {
-                    "title": "Image 10",
-                    "url": "images/image-10.jpg"
-                },
-                {
-                    "title": "Image 11",
-                    "url": "images/image-11.jpg"
-                },
-                {
-                    "title": "Image 12",
-                    "url": "images/image-12.jpg"
                 }
             ]
         }

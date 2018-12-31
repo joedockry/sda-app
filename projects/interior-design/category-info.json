@@ -1,48 +1,10 @@
 {
     "category": "interior-design",
-    "num": "5",
+    "num": "4",
     "project": [
         {
-            "id": "aurora",
-            "idNum": "0",
-            "title": "Aurora",
-            "category": "Interior Design",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                }
-            ]
-        },
-        {
             "id": "carlton-casino-club",
-            "idNum": "1",
+            "idNum": "0",
             "title": "Carlton Casino Club",
             "category": "Interior Design",
             "details" : [
@@ -67,20 +29,17 @@
                 {
                     "title": "Image 1",
                     "url": "images/image-1.jpg"
-                },
+                }
+            ],
+            "videos": [
                 {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
+                    "id": "VmBkL8-R3_8"
                 }
             ]
         },
         {
             "id": "menlo-park-hotel",
-            "idNum": "2",
+            "idNum": "1",
             "title": "Menlo Park Hotel",
             "category": "Interior Design",
             "details" : [
@@ -113,12 +72,20 @@
                 {
                     "title": "Image 3",
                     "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
                 }
             ]
         },
         {
             "id": "the-dough-bros",
-            "idNum": "3",
+            "idNum": "2",
             "title": "The Dough Bros",
             "category": "Interior Design",
             "details" : [
@@ -151,12 +118,20 @@
                 {
                     "title": "Image 3",
                     "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
                 }
             ]
         },
         {
             "id": "the-huntsman-inn",
-            "idNum": "4",
+            "idNum": "3",
             "title": "The Huntsman Inn",
             "category": "Interior Design",
             "details" : [
@@ -189,6 +164,14 @@
                 {
                     "title": "Image 3",
                     "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
                 }
             ]
         }

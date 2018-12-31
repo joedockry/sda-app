@@ -641,6 +641,7 @@ footer {
     margin-bottom: 10px;
 }
 .main-content {
+    position: relative;
     width: 100%;
     height: 500px;
     margin-bottom: 5px;
@@ -684,7 +685,7 @@ footer {
     margin: auto;
     height: 100%;
     transition: all 1s;
-    transform: translateX(-500px);
+    transform: translateX(-1000px);
 }
 .slide-left img {
     transform: translateX(0px);
@@ -705,7 +706,7 @@ footer {
     margin: auto;
     height: 100%;
     transition: all 1s;
-    transform: translateX(500px);
+    transform: translateX(1000px);
 }
 .slide-right img {
     transform: translateX(0px);
@@ -772,34 +773,34 @@ footer {
 .left-nav {
     position: absolute;
     top: 0;
+    bottom: 0;
+    margin: auto;
     z-index: 10;
-    left: 10px;
-    width: 30px;
-    /*height: 100%;*/
-    height: 90%;
-    background-image: url("images/left-arrow.png");
+    width: 40px;
+    height: 50px;
+    background-image: url(images/left-arrow-full.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .left-nav:hover {
-    background-image: url("images/left-arrow-highlight.png");
+    background-image: url("images/left-arrow-full-highlight.png");
 }
-.right-nav {
-    position: absolute;
+.right-nav {    position: absolute;
     top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
     z-index: 10;
-    right: 10px;
-    width: 30px;
-    /*height: 100%;*/
-    height: 90%;
-    background-image: url("images/right-arrow.png");
+    width: 40px;
+    height: 50px;
+    background-image: url("images/right-arrow-full.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .right-nav:hover {
-    background-image: url("images/right-arrow-highlight.png");
+    background-image: url("images/right-arrow-full-highlight.png");
 }
 
 .plus-nav {

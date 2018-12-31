@@ -292,6 +292,8 @@
             $(".image-left:eq(" + l + ")").addClass("slide-left");
 
             selectOption(previousContent, 1, l);
+
+            autoCarousel = false;
         });
 
         // Event listener for the right button
@@ -313,10 +315,14 @@
             $(".image-right:eq(" + r + ")").addClass("slide-right");
 
             selectOption(nextContent, 0, r);
+
+            autoCarousel = false;
         });
 
         // On click for any other image or video
 		$(document).on('click', '.other-content', function(){
+            autoCarousel = false;
+            
             // Return to original scale
             $("#image").css("transform", "scale(1.0)");
 
@@ -661,5 +667,32 @@
         function CloseVideo() {
             $(".video-overlay").removeClass("active-content");
         }
+
+        
+        /*
+        Auto Carousel
+        */
+        var autoCarousel = true;
+        setInterval(function() {
+            if (autoCarousel === true) {
+                // Return to original scale
+                $("#image").css("transform", "scale(1.0)");
+                // Move to next content
+                var nextContent = $(".highlighted-content").next();
+                if (!nextContent.hasClass("other-content")){
+                    nextContent = $(".other-content").first();
+                }
+
+                r = (r + 1) % 5;
+                $(".image-right:eq(" + r + ")").css("display", "block");
+                if($(nextContent).children("div").hasClass("other-image")) {
+                    var image = $(nextContent).children("div").attr("url");
+                    $(".image-right:eq(" + r + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+                }
+                $(".image-right:eq(" + r + ")").addClass("slide-right");
+
+                selectOption(nextContent, 0, r);
+            }
+        }, 7000);
 	</script>
 </html>
