@@ -14,6 +14,35 @@
 		</script>
     </head>
     <body>
+		<div class="welcome-sequence">
+			<!--<div class="welcome-1">
+				<div class="welcome seq-1">s</div>
+				<div class="welcome seq-1">e</div>
+				<div class="welcome seq-1">a</div>
+				<div class="welcome seq-1">n</div>
+				<div class="welcome seq-1">&nbsp;</div>
+				<div class="welcome seq-1">d</div>
+				<div class="welcome seq-1">o</div>
+				<div class="welcome seq-1">c</div>
+				<div class="welcome seq-1">k</div>
+				<div class="welcome seq-1">r</div>
+				<div class="welcome seq-1">y</div>
+				<div class="welcome seq-1">&nbsp;</div>
+				<div class="welcome seq-1">&</div>
+				<div class="welcome seq-1">&nbsp;</div>
+				<div class="welcome seq-1">a</div>
+				<div class="welcome seq-1">s</div>
+				<div class="welcome seq-1">s</div>
+				<div class="welcome seq-1">o</div>
+				<div class="welcome seq-1">c</div>
+				<div class="welcome seq-1">i</div>
+				<div class="welcome seq-1">a</div>
+				<div class="welcome seq-1">t</div>
+				<div class="welcome seq-1">e</div>
+				<div class="welcome seq-1">s</div>
+			</div>-->
+			<div class="welcome-logo"></div>
+		</div>
         <header id="navigation-bar">
 			<nav>
 				<logo></logo>
