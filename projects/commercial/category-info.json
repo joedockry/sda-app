@@ -1,6 +1,6 @@
 {
     "category": "commercial",
-    "num": "5",
+    "num": "4",
     "project": [
         {
             "id": "citypoint",
@@ -9,20 +9,8 @@
             "category": "Commercial",
             "details" : [
                 {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
+                    "head": "",
+                    "body": "This project involved the development of a landmark building off Eyre Square for a multi-level retail stone with offices and penthouse residential levels. Novel Engineering facilitated three basement levels and six over ground storeys. A vertical emphasis was achieved with the use of basalt stone and moleanos limestone punctuated with large scale glazed features."
                 }
             ],
             "images": [
@@ -37,14 +25,6 @@
                 {
                     "title": "Image 3",
                     "url": "images/image-3.jpg"
-                },
-                {
-                    "title": "Image 4",
-                    "url": "images/image-4.jpg"
-                },
-                {
-                    "title": "Image 5",
-                    "url": "images/image-5.jpg"
                 }
             ]
         },
@@ -53,24 +33,6 @@
             "idNum": "1",
             "title": "Ennistymon Fitzpatrick's Supermarket",
             "category": "Commercial",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -87,10 +49,6 @@
                 {
                     "title": "Image 4",
                     "url": "images/image-4.jpg"
-                },
-                {
-                    "title": "Image 5",
-                    "url": "images/image-5.jpg"
                 }
             ]
         },
@@ -101,20 +59,8 @@
             "category": "Commercial",
             "details" : [
                 {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
+                    "head": "",
+                    "body": "The shop front and interior design project needed to express the rich heritage and iconic history of the traditional Galway family quality jewellers. The long established strong tradition and contemporary design characteristics had to be integrated into a Protected Structure."
                 }
             ],
             "images": [
@@ -125,66 +71,14 @@
                 {
                     "title": "Image 2",
                     "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                }
-            ]
-        },
-        {
-            "id": "jarleths-credit-union",
-            "idNum": "3",
-            "title": "St. Jarleth's Credit Union",
-            "category": "Commercial",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
                 }
             ]
         },
         {
             "id": "kinvara-burkes-supermarket",
-            "idNum": "4",
+            "idNum": "3",
             "title": "Kinvara Burke's Supermarket",
             "category": "Commercial",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
             "images": [
                 {
                     "title": "Image 1",

@@ -9,20 +9,8 @@
             "category": "Hotels, Bars & Restaurants",
             "details" : [
                 {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
+                    "head": "",
+                    "body": "As an extension and alteration to the existing hotel, this project enabled the complete modernisation and rebranding, both in its interior and external expression for this well-known landmark hotel."
                 }
             ],
             "images": [
@@ -53,24 +41,6 @@
             "idNum": "1",
             "title": "The Dough Bros",
             "category": "Hotels, Bars & Restaurants",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -101,20 +71,8 @@
             "category": "Hotels, Bars & Restaurants",
             "details" : [
                 {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
+                    "head": "",
+                    "body": "Originally designed as a bar and restaurant representing a new street frontage this premises was further developed as a hotel. New interior fit outs are upgraded and refreshed every few years to maintain an attractive welcoming cotemporary environment."
                 }
             ],
             "images": [
@@ -145,24 +103,6 @@
             "idNum": "3",
             "title": "Athenry Hotel Raheen Woods",
             "category": "Hotels, Bars & Restaurants",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -187,24 +127,6 @@
             "idNum": "4",
             "title": "Claregalway Hotel",
             "category": "Hotels, Bars & Restaurants",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -229,24 +151,6 @@
             "idNum": "5",
             "title": "Tara Hotel",
             "category": "Hotels, Bars & Restaurants",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
             "images": [
                 {
                     "title": "Image 1",

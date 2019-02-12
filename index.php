@@ -14,7 +14,7 @@
 		</script>
     </head>
     <body>
-		<div class="welcome-sequence">
+		<!--<div class="welcome-sequence">
 			<!--<div class="welcome-1">
 				<div class="welcome seq-1">s</div>
 				<div class="welcome seq-1">e</div>
@@ -40,9 +40,9 @@
 				<div class="welcome seq-1">t</div>
 				<div class="welcome seq-1">e</div>
 				<div class="welcome seq-1">s</div>
-			</div>-->
+			</div>
 			<div class="welcome-logo"></div>
-		</div>
+		</div>-->
         <header id="navigation-bar">
 			<nav>
 				<logo></logo>
@@ -152,9 +152,9 @@
 					</div>
 					<div class="column">
 						<div class="grid-item">
-							<a href="projects/category.html?category=dwelling-houses">
-								<img src="projects/dwelling-houses/cover.jpg">
-								<div>Dwelling Houses</div>
+							<a href="projects/category.html?category=houses">
+								<img src="projects/houses/cover.jpg">
+								<div>Houses</div>
 							</a>
 						</div>
 						<div class="grid-item">

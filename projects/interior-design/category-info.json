@@ -1,6 +1,6 @@
 {
     "category": "interior-design",
-    "num": "4",
+    "num": "5",
     "project": [
         {
             "id": "carlton-casino-club",
@@ -9,26 +9,30 @@
             "category": "Interior Design",
             "details" : [
                 {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
+                    "head": "",
+                    "body": "The Project Included brand development to achieve a new luxurious relaxing entertainment environment integrating the latest technology into a neo classical art deco style relevant to the traditions and history of the Protected Structure on Dublin’s main street."
                 }
             ],
             "images": [
                 {
                     "title": "Image 1",
                     "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
                 }
             ],
             "videos": [
@@ -42,24 +46,6 @@
             "idNum": "1",
             "title": "Menlo Park Hotel",
             "category": "Interior Design",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -88,24 +74,6 @@
             "idNum": "2",
             "title": "The Dough Bros",
             "category": "Interior Design",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -136,22 +104,38 @@
             "category": "Interior Design",
             "details" : [
                 {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
+                    "head": "",
+                    "body": "Originally designed as a bar and restaurant representing a new street frontage this premises was further developed as a hotel. New interior fit outs are upgraded and refreshed every few years to maintain an attractive welcoming cotemporary environment."
                 }
             ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "aurora",
+            "idNum": "4",
+            "title": "Aurora",
+            "category": "Interior Design",
             "images": [
                 {
                     "title": "Image 1",

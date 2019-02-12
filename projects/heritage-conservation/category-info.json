@@ -1,5 +1,5 @@
 {
-    "category": "commercial",
+    "category": "heritage-conservation",
     "num": "7",
     "project": [
         {
@@ -83,24 +83,6 @@
             "idNum": "2",
             "title": "Grammar School",
             "category": "Heritage / Conservation",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -113,6 +95,14 @@
                 {
                     "title": "Image 3",
                     "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
                 }
             ]
         },
@@ -197,24 +187,6 @@
             "idNum": "5",
             "title": "Swan House",
             "category": "Heritage / Conservation",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -223,10 +195,6 @@
                 {
                     "title": "Image 2",
                     "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
                 }
             ]
         },

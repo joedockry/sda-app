@@ -81,6 +81,11 @@
                         </div>
                         <div id="left" class="left-nav"></div>
                         <div id="right" class="right-nav"></div>
+                        <div id="carousel-pagination" class="slider-pagination">
+                            <!--<span class="button-pagination"></span>
+                            <span class="button-pagination"></span>
+                            <span class="button-pagination"></span>-->
+                        </div>
                         <!--<div id="zoom-in" class="plus-nav"></div>
                         <div id="zoom-out" class="minus-nav"></div>-->
                     </div>
@@ -159,11 +164,9 @@
                 </div>
 			</div>
         </footer>
-        <div class="video-overlay">
-            <div class="video-overlay-close" onclick="CloseVideo()">
-                X
-            </div>
-            <div class="video-embedded">
+        <div class="video-overlay" onclick="CloseVideo()">
+            <div class="video-overlay-close"></div>
+            <div class="video-embedded" onclick="event.stopPropagation">
                 <iframe id="myIframe" width="500" height="300" style="border:none;"></iframe>
             </div>
         </div>
@@ -274,7 +277,7 @@
         });*/
 
         // Event listener for the left button
-        left.addEventListener("click", function() {
+        /*left.addEventListener("click", function() {
             // Return to original scale
             $("#image").css("transform", "scale(1.0)");
             // Move to next content
@@ -393,7 +396,120 @@
 				    video.play();
                 }
             }
+        }*/
+        left.addEventListener("click", function() {
+            // Return to original scale
+            $("#image").css("transform", "scale(1.0)");
+            // Move to next content
+			var previousContent = $(".active-pip").prev();
+			if (!previousContent.hasClass("button-pagination")){
+				previousContent = $(".button-pagination").last();
+			}
+
+            l = (l + 1) % 5;
+            $(".image-left:eq(" + l + ")").css("display", "block");
+            var image = $(previousContent).attr("url");
+            $(".image-left:eq(" + l + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+            $(".image-left:eq(" + l + ")").addClass("slide-left");
+
+            selectOption(previousContent, 1, l);
+
+            autoCarousel = false;
+        });
+
+        // Event listener for the right button
+        right.addEventListener("click", function() {
+            // Return to original scale
+            $("#image").css("transform", "scale(1.0)");
+            // Move to next content
+            var nextContent = $(".active-pip").next();
+            if (!nextContent.hasClass("button-pagination")){
+                nextContent = $(".button-pagination").first();
+            }
+
+            r = (r + 1) % 5;
+            $(".image-right:eq(" + r + ")").css("display", "block");
+            var image = $(nextContent).attr("url");
+            $(".image-right:eq(" + r + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+            $(".image-right:eq(" + r + ")").addClass("slide-right");
+
+            selectOption(nextContent, 0, r);
+
+            autoCarousel = false;
+        });
+
+        // On click for any other image or video
+		$(document).on('click', '.button-pagination', function(){
+            autoCarousel = false;
+
+            // Return to original scale
+            $("#image").css("transform", "scale(1.0)");
+
+            if($(this).isAfter(".active-pip")) {
+                r = (r + 1) % 5;
+                $(".image-right:eq(" + r + ")").css("display", "block");
+                var image = $(this).attr("url");
+                $(".image-right:eq(" + r + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+                $(".image-right:eq(" + r + ")").addClass("slide-right");
+
+                selectOption(this, 0, r);
+            } else if ($(this).isBefore(".active-pip")) {
+                l = (l + 1) % 5;
+                $(".image-left:eq(" + l + ")").css("display", "block");
+                var image = $(this).attr("url");
+                $(".image-left:eq(" + l + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+                $(".image-left:eq(" + l + ")").addClass("slide-left");
+
+                selectOption(this, 1, l);
+            }
+		});
+
+        $.fn.isAfter = function(sel) {
+            return this.prevAll(sel).length !== 0;
         }
+        $.fn.isBefore = function(sel) {
+            return this.nextAll(sel).length !== 0;
+        }
+
+        function selectOption(option, left, num) {
+            if($(option).hasClass("button-pagination")) {
+                // Select Image
+                setTimeout(() => {
+                    if(left) $(".image-left:eq(" + num + ")").css("display", "none");
+                    else $(".image-right:eq(" + num + ")").css("display", "none");
+                    var image = $(option).attr("url");
+                    $("#image").attr("src", image);
+                    if(left) $(".image-left:eq(" + num + ")").removeClass("slide-left");
+                    else $(".image-right:eq(" + num + ")").removeClass("slide-right");
+                }, 1000);
+
+                $(".active-pip").removeClass("active-pip");
+                $(option).addClass("active-pip");
+
+                $(".current-video").removeClass("active-content");
+                $(".current-image").addClass("active-content");
+
+                if(!video.paused) {
+                    video.pause();
+                }
+            }
+            else if($(option).children("div").hasClass("other-video")) {
+                // Select Video
+                var videoO = $(option).children("div").attr("url");
+                $("#video").children("source").attr("src", videoO).stop(true,true).hide().fadeIn();
+
+                $(".highlighted-content").removeClass("highlighted-content");
+                $(option).addClass("highlighted-content");
+
+                $(".current-image").removeClass("active-content");
+                $(".current-video").addClass("active-content");
+                
+                if(video.paused) {
+				    video.play();
+                }
+            }
+        }
+
 
 
         /*
@@ -535,7 +651,7 @@
                         $("#para6").text("Other: " + p.other);*/
                         //Full width version
                         //var title = "<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + p.title + " <hr></div>";
-                        var title = "<div>&nbsp;&nbsp;" + p.title + " <hr></div>";
+                        var title = "<div>" + p.title + " <hr></div>";
                         $(title).appendTo(".page-title");
                         
                         $.each(p.details, function(l,q) {
@@ -564,9 +680,13 @@
                                 "<div class=\"other-image\" style=\"background-image: url('" + category + "/" + p.id + "/" + q.url + "')\" url=\"" + category + "/" + p.id + "/" + q.url + "\"></div>" +
                                 "</div>"
 			                $(image).appendTo(".gallery");
+
+                            var imagePip = "<span class=\"button-pagination\"  url=\"" + category + "/" + p.id + "/" + q.url + "\"></span>";
+                            $(imagePip).appendTo("#carousel-pagination");
                         })
 
                         $(".other-content").first().addClass("highlighted-content");
+                        $(".button-pagination").first().addClass("active-pip");
 
                         if($(".highlighted-content").children("div").hasClass("other-image")) {
                             var image = $(".highlighted-content").children("div").attr("url");
@@ -678,6 +798,18 @@
                 // Return to original scale
                 $("#image").css("transform", "scale(1.0)");
                 // Move to next content
+                var nextContent = $(".active-pip").next();
+                if (!nextContent.hasClass("button-pagination")){
+                    nextContent = $(".button-pagination").first();
+                }
+
+                r = (r + 1) % 5;
+                $(".image-right:eq(" + r + ")").css("display", "block");
+                var image = $(nextContent).attr("url");
+                $(".image-right:eq(" + r + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
+                $(".image-right:eq(" + r + ")").addClass("slide-right");
+
+                /*
                 var nextContent = $(".highlighted-content").next();
                 if (!nextContent.hasClass("other-content")){
                     nextContent = $(".other-content").first();
@@ -690,6 +822,7 @@
                     $(".image-right:eq(" + r + ")").children(0).attr("src", image).stop(true,true).hide().fadeIn();
                 }
                 $(".image-right:eq(" + r + ")").addClass("slide-right");
+                */
 
                 selectOption(nextContent, 0, r);
             }
