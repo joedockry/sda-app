@@ -1,86 +1,10 @@
 {
     "category": "heritage-conservation",
-    "num": "7",
+    "num": "2",
     "project": [
         {
-            "id": "bushypark-church",
-            "idNum": "0",
-            "title": "Bushypark Church",
-            "category": "Heritage / Conservation",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                }
-            ]
-        },
-        {
-            "id": "corrib-villa",
-            "idNum": "1",
-            "title": "Corrib Villa",
-            "category": "Heritage / Convservation",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                }
-            ]
-        },
-        {
             "id": "grammar-school",
-            "idNum": "2",
+            "idNum": "0",
             "title": "Grammar School",
             "category": "Heritage / Conservation",
             "images": [
@@ -107,84 +31,8 @@
             ]
         },
         {
-            "id": "nuns-island",
-            "idNum": "3",
-            "title": "Nun's Island",
-            "category": "Heritage / Conservation",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                }
-            ]
-        },
-        {
-            "id": "rahoon-house",
-            "idNum": "4",
-            "title": "Rahoon House",
-            "category": "Heritage / Conservation",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                }
-            ]
-        },
-        {
             "id": "swan-house",
-            "idNum": "5",
+            "idNum": "1",
             "title": "Swan House",
             "category": "Heritage / Conservation",
             "images": [
@@ -195,44 +43,6 @@
                 {
                     "title": "Image 2",
                     "url": "images/image-2.jpg"
-                }
-            ]
-        },
-        {
-            "id": "taylors-house",
-            "idNum": "6",
-            "title": "Taylors House",
-            "category": "Heritage / Conservation",
-            "details" : [
-                {
-                    "head": "Location",
-                    "body": "<location>"
-                },
-                {
-                    "head": "Description",
-                    "body": "<description>"
-                },
-                {
-                    "head": "Status",
-                    "body": "<status>"
-                },
-                {
-                    "head": "No of Units/Area",
-                    "body": "<area>"
-                }
-            ],
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
                 }
             ]
         }
