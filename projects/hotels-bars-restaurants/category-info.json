@@ -1,6 +1,6 @@
 {
     "category": "hotels-bars-restaurants",
-    "num": "6",
+    "num": "8",
     "project": [
         {
             "id": "menlo-park-hotel",
@@ -95,12 +95,64 @@
                 {
                     "title": "Image 5",
                     "url": "images/image-5.jpg"
+                },
+                {
+                    "title": "Image 6",
+                    "url": "images/image-6.jpg"
+                }
+            ]
+        },
+        {
+            "id": "bar-903",
+            "idNum": "3",
+            "title": "Bar 903",
+            "category": "Hotels, Bars & Restaurants",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-kings-head",
+            "idNum": "4",
+            "title": "The Kings Head",
+            "category": "Hotels, Bars & Restaurants",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
                 }
             ]
         },
         {
             "id": "athenry-hotel-raheen-woods",
-            "idNum": "3",
+            "idNum": "5",
             "title": "Athenry Hotel Raheen Woods",
             "category": "Hotels, Bars & Restaurants",
             "images": [
@@ -124,7 +176,7 @@
         },
         {
             "id": "claregalway-hotel",
-            "idNum": "4",
+            "idNum": "6",
             "title": "Claregalway Hotel",
             "category": "Hotels, Bars & Restaurants",
             "images": [
@@ -148,7 +200,7 @@
         },
         {
             "id": "tara-hotel",
-            "idNum": "5",
+            "idNum": "7",
             "title": "Tara Hotel",
             "category": "Hotels, Bars & Restaurants",
             "images": [

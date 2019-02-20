@@ -377,7 +377,7 @@ burger input:checked ~ ul {
 
 
 .container {
-    margin: 5% 10% 5% 10%;
+    margin: 1.5% 10% 5% 10%;
 }
 @media only screen and (min-width : 700px) {
     .container.project-container {
@@ -496,21 +496,26 @@ burger input:checked ~ ul {
 .project-controller {
     clear: both;
     position: relative;
-    /*height: 100px;*/
-    height: 120px;
-    background: #ededed;
+    
+    /*position: fixed;
+    bottom: 0;
+    width: 100%;*/
+
+    /*height: 120px;*/
+    height: 10px;
+    background: rgb(245, 245, 245);
 }
 .controller-previous {
     float: left;
-    width: 25%;
+    width: 33%;
 }
 .controller-home {
     float: left;
-    width: 50%;
+    width: 34%;
 }
 .controller-next {
     float: left;
-    width: 25%;
+    width: 33%;
 }
 .controller-icon {
     position: relative;
@@ -558,6 +563,50 @@ burger input:checked ~ ul {
     }
 }
 
+.project-controller-sk {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #ededed;
+}
+.hi-icon-sk {
+    display: block !important;
+    margin-top: 10px !important;
+  }
+  
+.controller-label-left {
+    width: 500%;
+    float: left;
+    margin-left: 100px;
+    height: 100%;
+    line-height: 58px;
+    font-size: 14px;
+    text-align: left;
+    transition: all 1s;
+}
+  
+.controller-label-right {
+    width: 500%;
+    float: right;
+    margin-right: 100px;
+    height: 100%;
+    line-height: 58px;
+    font-size: 14px;
+    text-align: right;
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -591,9 +640,17 @@ footer {
 .social-media {
     float: right;
     margin-right: 20px;
+    padding-top: 5px;
+    width: 60px;
+    height: 55px;
+    text-align: center;
+    background-color: rgb(120, 120, 120);
+    color: rgb(48, 48, 48);
+    border-radius: 10px;
+    cursor: pointer;
 }
 .social-media:hover {
-    color: rgb(180, 180, 180);
+    background-color: rgb(180, 180, 180);
 }
 .footer-bottom {
     margin-bottom:50px;
@@ -635,7 +692,8 @@ footer {
 
 .gallery {
     position: relative;
-    width: 70%; /*50%*/
+    /*width: 70%; /*50%*/
+    width: 65%;
     float: left;
     margin-right: 25px;
     margin-bottom: 10px;
@@ -1073,7 +1131,7 @@ footer {
   }
   
   
-  .hi-icon-archive:before {
+  /*.hi-icon-archive:before {
     content: "\e00f";
   }
   
@@ -1090,42 +1148,42 @@ footer {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-  }
+  }*/
   
   .hi-icon:hover {
-    background: rgba(143, 195, 211, 0.5);
+    /*background: rgba(143, 195, 211, 0.5);*/
     -webkit-transform: scale(0.93);
     -moz-transform: scale(0.93);
     -ms-transform: scale(0.93);
     transform: scale(0.93);
-    color: #fff;
+    color: rgb(30, 30, 30);
   }
   
-  .hi-icon:hover > .icon-img {
+  /*.hi-icon:hover > .icon-img {
     background: url('images/left-arrow-highlight.png') no-repeat center;
     background-size: contain;
-  }
+  }*/
   
-  .hi-icon-active:after {
+  /*.hi-icon-active:after {
     animation: sonarEffect 1.3s ease-out 75ms;
     -webkit-transform: scale(0.93);
     -moz-transform: scale(0.93);
     -ms-transform: scale(0.93);
     transform: scale(0.93);
-  }
+  }*/
 
   .rotate-180 {
     transform: rotate(180deg);
   }
   
-  .rotate-180:hover {
+  /*.rotate-180:hover {
     background: rgba(143, 195, 211, 0.5);
     -webkit-transform: scale(0.93);
     -moz-transform: scale(0.93);
     -ms-transform: scale(0.93);
     transform: scale(0.93) rotate(180deg);
     color: #fff;
-  }
+  }*/
 
   .icon-grid {
     position: absolute;
@@ -1149,7 +1207,7 @@ footer {
     0.5em 0.5em rgb(79, 79, 79);
   }
 
-  .hi-icon:hover > .icon-grid {
+  /*.hi-icon:hover > .icon-grid {
     background-color: rgb(255, 255, 255) !important;
      box-shadow: -0.6em 0 rgb(255, 255, 255),
     -0.6em 0.6em rgb(255, 255, 255),
@@ -1174,7 +1232,7 @@ footer {
       -webkit-transform: scale(1.2);
       opacity: 0;
     }
-  }
+  }*/
 
 
 
@@ -1461,6 +1519,23 @@ footer {
     z-index: 200;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    max-width: 900px;
+    height: 80%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-overlay-background {
+    position: fixed;
+    pointer-events: all;
+    z-index: 200;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -1511,14 +1586,16 @@ footer {
 }
 
 .video-embedded {
-    position: absolute;
+    /*position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
     width: 900px;
-    height: 600px;
+    height: 600px;*/
+
+    width: 100%;
 }
 
 
@@ -1737,12 +1814,21 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-    .video-embedded {
-        width: 550px;
-        height: 320px;
-    }
     .link-video-icon {
         left: 200px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .video-overlay-close {
+        top: 5px;
+        right: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .video-overlay {
+        width: 99%;
     }
 }
 
@@ -1757,4 +1843,18 @@ footer {
 
 .active-content{
     display: block;
+}
+
+.active-video {
+    display: flex;
+}
+
+* {
+    /*font-family: 'Century Gothic', Arial, sans-serif;*/
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+}
+
+@font-face {
+    font-family: "Century Gothic";
+    src: url("assets/Century-Gothic.ttf") format("tff"),
 }

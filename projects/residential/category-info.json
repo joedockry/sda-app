@@ -135,8 +135,28 @@
             ]
         },
         {
-            "id": "carieal-mor",
+            "id": "letteragh-road",
             "idNum": "5",
+            "title": "Letteragh Road",
+            "category": "Residential",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "carieal-mor",
+            "idNum": "6",
             "title": "Cariéal Mór",
             "category": "Residential",
             "images": [
@@ -155,26 +175,6 @@
                 {
                     "title": "Image 4",
                     "url": "images/image-4.jpg"
-                }
-            ]
-        },
-        {
-            "id": "letteragh-road",
-            "idNum": "6",
-            "title": "Letteragh Road",
-            "category": "Residential",
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
                 }
             ]
         }

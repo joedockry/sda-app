@@ -7,7 +7,7 @@
 		<link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32">
 		<link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16">
         <link rel="stylesheet" href="../style.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script>
 		</script>
@@ -109,7 +109,7 @@
             </div>
         </div>
         <div class="project-controller">
-            <a href="../alterations-extensions-dwellings/category.html">
+            <!--<a href="../alterations-extensions-dwellings/category.html">
                 <div class="controller-previous project-control">
                     <center><div class="hi-icon hi-icon-archive"><div class="icon-img"></div></div></center>
                     <center><div class="controller-label">Retail Highstreet</div></center>
@@ -126,6 +126,34 @@
                     <center><div class="hi-icon hi-icon-archive rotate-180"><div class="icon-img"></div></div></center>
                     <center><div class="controller-label">Apartments</div></center>
                 </div>
+            </a>-->
+        </div>
+        <div class="project-controller-sk">
+            <a href="../alterations-extensions-dwellings/category.html">
+                <div class="controller-previous project-control">
+                    <center>
+                        <div class="hi-icon hi-icon-sk hi-icon-archive" style="margin-right:50%;">
+                            <div class="icon-img"></div>
+                            <div class="controller-label-left"></div>
+                        </div>
+                    </center>
+                </div>
+            </a>
+            <a href="../index.php">
+                <div class="controller-home project-control">
+                    <center><div class="hi-icon hi-icon-sk hi-icon-archive"><div class="icon-grid"></div></div></center>
+                    <!--<center><div class="controller-label">Projects</div></center>-->
+                </div>
+            </a>
+            <a href="../alterations-extensions-dwellings/category.html">
+                <div class="controller-next project-control">
+                    <center>
+                        <div class="hi-icon hi-icon-sk hi-icon-archive" style="margin-right:-50%;">
+                            <div class="icon-img rotate-180"></div>
+                            <div class="controller-label-right"></div>
+                        </div>
+                    </center>
+                </div>
             </a>
         </div>
         <footer>
@@ -133,9 +161,9 @@
 				Sea&#769;n Dockry and Associates
 			</div>
 			<div class="footer-social">
-				<i class="fa fa-facebook-square social-media" style="font-size:65px"></i>
-				<i class="fa fa-twitter-square social-media" style="font-size:65px"></i>
-				<i class="fa fa-envelope-square social-media" style="font-size:65px"></i>
+				<i class="fab fa-facebook-f social-media" style="font-size:50px" onClick="window.open('https://www.facebook.com/pages/category/Professional-Service/Sean-Dockry-Associates-198935273504277/');"></i>
+				<i class="fab fa-houzz social-media" style="font-size:50px" onClick="window.open('https://www.houzz.ie/pro/sdaarch/sean-dockry-associates');"></i>
+				<i class="fab fa-pinterest social-media" style="font-size:50px" onClick="window.open('https://www.pinterest.ie/dockry/');"></i>
 			</div>
 			<div class="footer-bottom">
 				<div class="footer-info">
@@ -164,10 +192,30 @@
                 </div>
 			</div>
         </footer>
-        <div class="video-overlay" onclick="CloseVideo()">
-            <div class="video-overlay-close"></div>
+        <div class="video-overlay-background" onclick="CloseVideo()">
+            <div class="video-overlay-close" onclick="CloseVideo()"></div>
+        </div>
+        <div class="video-overlay">
             <div class="video-embedded" onclick="event.stopPropagation">
-                <iframe id="myIframe" width="500" height="300" style="border:none;"></iframe>
+                <script src="https://fast.wistia.com/embed/medias/swurjlhefb.jsonp" async></script>
+                <script src="https://fast.wistia.com/embed/medias/4wbkxektl9.jsonp" async></script>
+                <!--<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                        <span id="video-part-1" class="wistia_embed popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span>
+                    </div>
+                </div>-->
+                <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                        <div id="video-part-1" class="wistia_embed videoFoam=true" style="height:100%;position:relative;width:100%">
+                            <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                <img id="video-part-2" src="" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<iframe id="myIframe" width="500" height="300" style="border:none;"></iframe>-->
             </div>
         </div>
 	</body>
@@ -671,8 +719,14 @@
 			                $(videoO).appendTo(".gallery");
 				            video.play();*/
 
-                            var url = "https://www.youtube.com/embed/" + q.id;
+                            /*var url = "https://www.youtube.com/embed/" + q.id;
                             $('#myIframe').attr('src', url)
+                            $(".link-video").addClass("active-content");*/
+
+                            var videoPart1 = "wistia_async_" + q.id;
+                            var videoPart2 = "https://fast.wistia.com/embed/medias/" + q.id + "/swatch";
+                            $("#video-part-1").addClass(videoPart1);
+                            $('#video-part-2').attr('src', videoPart2);
                             $(".link-video").addClass("active-content");
                         })
                         $.each(p.images, function(l,q) {
@@ -710,17 +764,17 @@
 								if(next == parseInt(maxProjects)) next = 0;
                                 if(m.idNum == prev) {
                                     $(".controller-previous").parents().first().attr("href", "../projects/project.html?category=" + category + "&project=" + m.id);
-                                    $(".controller-previous > center > .controller-label").text(m.title);
+                                    $(".controller-previous > center > div > .controller-label-left").text(m.title);
                                 }
                                 else if(m.idNum == next) {
                                     $(".controller-next").parents().first().attr("href", "../projects/project.html?category=" + category + "&project=" + m.id);
-                                    $(".controller-next > center > .controller-label").text(m.title);
+                                    $(".controller-next > center > div > .controller-label-right").text(m.title);
                                 }
                             });
                         });
 
                         $(".controller-home").parents().first().attr("href", "category.html?category=" + category);
-                        $(".controller-home > center > .controller-label").text(p.category);
+                        //$(".controller-home > center > .controller-label").text(p.category);
                     }
      			});
 			});
@@ -766,7 +820,7 @@
         Popup video
         */
 
-        var vh = $(window).height();
+        /*var vh = $(window).height();
         var vw = $(window).width();
         if(vw > 1000) {
             $('#myIframe').attr('width', 900);
@@ -779,14 +833,16 @@
         else {
             $('#myIframe').attr('width', 400);
             $('#myIframe').attr('height', 300);
-        }
+        }*/
 
         function OpenVideo() {
-            $(".video-overlay").addClass("active-content");
+            $(".video-overlay").addClass("active-video");
+            $(".video-overlay-background").addClass("active-content");
         }
 
         function CloseVideo() {
-            $(".video-overlay").removeClass("active-content");
+            $(".video-overlay").removeClass("active-video");
+            $(".video-overlay-background").removeClass("active-content");
         }
 
         

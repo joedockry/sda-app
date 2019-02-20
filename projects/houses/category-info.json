@@ -71,7 +71,7 @@
             ],
             "videos": [
                 {
-                    "id": "qTM-Fn5wNSA"
+                    "id": "swurjlhefb"
                 }
             ]
         },
@@ -88,21 +88,37 @@
             ]
         },
         {
-            "id": "arach-at-lochlea",
+            "id": "aurora",
             "idNum": "4",
-            "title": "Arach at Lochlea",
+            "title": "Aurora",
             "category": "Houses",
             "images": [
                 {
                     "title": "Image 1",
                     "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
                 }
             ]
         },
         {
-            "id": "aurora",
+            "id": "house-in-kinvara",
             "idNum": "5",
-            "title": "Aurora",
+            "title": "House in Kinvara",
             "category": "Houses",
             "images": [
                 {
