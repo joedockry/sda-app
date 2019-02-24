@@ -214,9 +214,12 @@
 		var header = document.getElementById("navigation-bar");
 		var sticky = header.offsetTop + 40;
 		var touch = header.offsetTop + 15;
+		//var sticky = 0;
+		//var touch = 0;
 
-		$(document.body).on('touchmove', onTouch);
-		$(window).scroll(onScroll); 
+		//$(document.body).on('touchmove', onTouch);
+		//$(window).scroll(onScroll);
+		header.classList.add("nav-fixed");
 
 		function onScroll(){ 
 			if (window.pageYOffset >= sticky) {

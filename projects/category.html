@@ -162,7 +162,7 @@
                 </div>
             </a>
         </div>-->
-        <div class="project-controller">
+        <!--<div class="project-controller">
             <a href="../alterations-extensions-dwellings/category.html">
                 <div class="controller-previous project-control">
                     <center><div class="hi-icon hi-icon-archive"><div class="icon-img"></div></div></center>
@@ -181,7 +181,43 @@
                     <center><div class="controller-label">Apartments</div></center>
                 </div>
             </a>
-        </div>
+		</div>-->
+        <div class="project-controller-sk">
+				<a href="../alterations-extensions-dwellings/category.html">
+					<div class="controller-previous project-control">
+						<center>
+							<div class="hi-icon hi-icon-sk hi-icon-archive" style="margin-right:50%;">
+								<div class="icon-img"></div>
+								<div class="controller-label-left">Previous Category</div>
+							</div>
+						</center>
+					</div>
+				</a>
+				<a href="../index.php">
+					<div class="controller-home project-control">
+						<center>
+							<div class="controller-home-label">
+								Back To<br>
+								Projects
+							</div>
+							<div class="hi-icon hi-icon-sk hi-icon-archive">
+								<!--<div class="icon-grid"></div>-->
+							</div>
+						</center>
+						<!--<center><div class="controller-label">Projects</div></center>-->
+					</div>
+				</a>
+				<a href="../alterations-extensions-dwellings/category.html">
+					<div class="controller-next project-control">
+						<center>
+							<div class="hi-icon hi-icon-sk hi-icon-archive" style="margin-right:-50%;">
+								<div class="icon-img rotate-180"></div>
+								<div class="controller-label-right">Next Category</div>
+							</div>
+						</center>
+					</div>
+				</a>
+			</div>
         <footer>
 			<div class="footer-title">
 				Sea&#769;n Dockry and Associates
@@ -232,8 +268,9 @@
 		var sticky = header.offsetTop + 40;
 		var touch = header.offsetTop + 15;
 
-		$(document.body).on('touchmove', onTouch); // for mobile
-		$(window).scroll(onScroll); 
+		//$(document.body).on('touchmove', onTouch);
+		//$(window).scroll(onScroll);
+		header.classList.add("nav-fixed"); 
 
 		function onScroll(){ 
 			if (window.pageYOffset >= sticky) {
