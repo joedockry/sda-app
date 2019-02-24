@@ -1,0 +1,199 @@
+{
+    "category": "interior-design",
+    "num": "7",
+    "project": [
+        {
+            "id": "menlo-park-hotel",
+            "idNum": "0",
+            "title": "Menlo Park Hotel",
+            "category": "Interior Design",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-huntsman-inn",
+            "idNum": "1",
+            "title": "The Huntsman Inn",
+            "category": "Interior Design",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "Originally designed as a bar and restaurant representing a new street frontage this premises was further developed as a hotel. New interior fit outs are upgraded and refreshed every few years to maintain an attractive welcoming cotemporary environment."
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "house-in-furbo",
+            "idNum": "2",
+            "title": "House in Furbo",
+            "category": "Interior Design",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "carlton-casino-club",
+            "idNum": "3",
+            "title": "Carlton Casino Club",
+            "category": "Interior Design",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "The Project Included brand development to achieve a new luxurious relaxing entertainment environment integrating the latest technology into a neo classical art deco style relevant to the traditions and history of the Protected Structure on Dublin’s main street."
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ],
+            "videos": [
+                {
+                    "id": "4wbkxektl9"
+                }
+            ]
+        },
+        {
+            "id": "the-dough-bros",
+            "idNum": "4",
+            "title": "The Dough Bros",
+            "category": "Interior Design",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "aurora",
+            "idNum": "5",
+            "title": "Aurora",
+            "category": "Interior Design",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "house-in-kinvara",
+            "idNum": "6",
+            "title": "House in Kinvara",
+            "category": "Interior Design",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

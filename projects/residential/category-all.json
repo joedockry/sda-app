@@ -1,0 +1,182 @@
+{
+    "category": "residential",
+    "num": "7",
+    "project": [
+        {
+            "id": "lough-atalia-apartments",
+            "idNum": "0",
+            "title": "Lough Atalia Apartments",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "The narrow single aspect site was developed to achieve contemporary apartments with picture view windows and balconies in a well-balanced and proportioned façade."
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "parkavara-apartments",
+            "idNum": "1",
+            "title": "Parkavara Apartments",
+            "category": "Residential",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "A high density residential development of mostly duplex apartments integrated into a Protected Structure site of the Galway Eglington Canal Saw Mill site. Metal monopitch roofs and cream limestone are used to give a contemporary foil to the historic context."
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "thornberry",
+            "idNum": "2",
+            "title": "Thornberry",
+            "category": "Residential",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "brambley",
+            "idNum": "3",
+            "title": "Brambley",
+            "category": "Residential",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "bushypark-lakeview",
+            "idNum": "4",
+            "title": "Bushypark Lakeview",
+            "category": "Residential",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "letteragh-road",
+            "idNum": "5",
+            "title": "Letteragh Road",
+            "category": "Residential",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "carieal-mor",
+            "idNum": "6",
+            "title": "Cariéal Mór",
+            "category": "Residential",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

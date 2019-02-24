@@ -1,0 +1,226 @@
+{
+    "category": "hotels-bars-restaurants",
+    "num": "8",
+    "project": [
+        {
+            "id": "menlo-park-hotel",
+            "idNum": "0",
+            "title": "Menlo Park Hotel",
+            "category": "Hotels, Bars & Restaurants",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "As an extension and alteration to the existing hotel, this project enabled the complete modernisation and rebranding, both in its interior and external expression for this well-known landmark hotel."
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-dough-bros",
+            "idNum": "1",
+            "title": "The Dough Bros",
+            "category": "Hotels, Bars & Restaurants",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-huntsman-inn",
+            "idNum": "2",
+            "title": "The Huntsman Inn",
+            "category": "Hotels, Bars & Restaurants",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "Originally designed as a bar and restaurant representing a new street frontage this premises was further developed as a hotel. New interior fit outs are upgraded and refreshed every few years to maintain an attractive welcoming cotemporary environment."
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                },
+                {
+                    "title": "Image 6",
+                    "url": "images/image-6.jpg"
+                }
+            ]
+        },
+        {
+            "id": "bar-903",
+            "idNum": "3",
+            "title": "Bar 903",
+            "category": "Hotels, Bars & Restaurants",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "the-kings-head",
+            "idNum": "4",
+            "title": "The Kings Head",
+            "category": "Hotels, Bars & Restaurants",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "athenry-hotel-raheen-woods",
+            "idNum": "5",
+            "title": "Athenry Hotel Raheen Woods",
+            "category": "Hotels, Bars & Restaurants",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "claregalway-hotel",
+            "idNum": "6",
+            "title": "Claregalway Hotel",
+            "category": "Hotels, Bars & Restaurants",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "tara-hotel",
+            "idNum": "7",
+            "title": "Tara Hotel",
+            "category": "Hotels, Bars & Restaurants",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        }
+    ]
+ }

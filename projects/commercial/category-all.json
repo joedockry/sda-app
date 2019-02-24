@@ -1,0 +1,98 @@
+{
+    "category": "commercial",
+    "num": "4",
+    "project": [
+        {
+            "id": "citypoint",
+            "idNum": "0",
+            "title": "Citypoint",
+            "category": "Commercial",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "This project involved the development of a landmark building off Eyre Square for a multi-level retail stone with offices and penthouse residential levels. Novel Engineering facilitated three basement levels and six over ground storeys. A vertical emphasis was achieved with the use of basalt stone and moleanos limestone punctuated with large scale glazed features."
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "ennistymon-fitzpatricks-supermarket",
+            "idNum": "1",
+            "title": "Ennistymon Fitzpatrick's Supermarket",
+            "category": "Commercial",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "fallers-jewellers",
+            "idNum": "2",
+            "title": "Faller's Jewellers",
+            "category": "Commercial",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "The shop front and interior design project needed to express the rich heritage and iconic history of the traditional Galway family quality jewellers. The long established strong tradition and contemporary design characteristics had to be integrated into a Protected Structure."
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                }
+            ]
+        },
+        {
+            "id": "kinvara-burkes-supermarket",
+            "idNum": "3",
+            "title": "Kinvara Burke's Supermarket",
+            "category": "Commercial",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        }
+    ]
+ }
