@@ -53,6 +53,10 @@
                 {
                     "title": "Image 4",
                     "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
                 }
             ]
         },
