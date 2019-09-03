@@ -118,6 +118,8 @@
 			</div>-->
 			<div class="page-title">
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects
+				<a href="projects/all-images.html"><div class="view-all-option">View All Images</div></a>
+				<a href="projects/all-videos.html?id=0"><div class="view-all-option">View All Videos</div></a>
 				<hr>
 			</div>
 			<div class="grid">

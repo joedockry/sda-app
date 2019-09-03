@@ -310,19 +310,19 @@
 
         function getData() {
             var columns = $(".column");
-            var c = 1;
+            var c = 0;
 
 			$.getJSON(category + '/category-info.json', function(data) {
 				console.log(category);
                 var cat = data.category;
 
-				var categoryAll = "<div class=\"grid-item\">" +
+				/*var categoryAll = "<div class=\"grid-item\">" +
 					"<a href=\"./all.html?category=" + cat + "\">" +
 						"<img src=\"./" + cat + "/all/cover.jpg\">" +
 						"<div>All</div>" +
 					"</a>" +
 				"</div>"
-				$(categoryAll).appendTo(columns[0]);
+				$(categoryAll).appendTo(columns[0]);*/
 
 				$.each(data.project, function(i, p) {
 					createProject(columns[c], p.id, p.title, p.images[0].url, cat);
