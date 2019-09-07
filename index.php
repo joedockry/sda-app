@@ -159,10 +159,16 @@
 								<div>Houses</div>
 							</a>
 						</div>
-						<div class="grid-item">
+						<!--<div class="grid-item">
 							<a href="projects/category.html?category=heritage-conservation">
 								<img src="projects/heritage-conservation/cover.jpg">
 								<div>Heritage / Conservation</div>
+							</a>
+						</div>-->
+						<div class="grid-item">
+							<a href="projects/category.html?category=alterations-extensions">
+								<img src="projects/alterations-extensions/cover.jpg">
+								<div>Alterations & Extensions</div>
 							</a>
 						</div>
 					</div>

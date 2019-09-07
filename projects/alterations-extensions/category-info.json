@@ -1,0 +1,66 @@
+{
+    "category": "alterations-extensions",
+    "num": "5",
+    "project": [
+        {
+            "id": "bothair-na-grainne",
+            "idNum": "0",
+            "title": "Bothair Na Grainne",
+            "category": "Alterations & Extensions",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "cannon-morrin",
+            "idNum": "1",
+            "title": "Cannon Morrin",
+            "category": "Alterations & Extensions",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "chasmoor",
+            "idNum": "2",
+            "title": "Chasmoor",
+            "category": "Alterations & Extensions",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "jackie-crowe-house",
+            "idNum": "3",
+            "title": "Jackie Crowe House",
+            "category": "Alterations & Extensions",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "leyland",
+            "idNum": "4",
+            "title": "Leyland",
+            "category": "Alterations & Extensions",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                }
+            ]
+        }
+    ]
+ }
