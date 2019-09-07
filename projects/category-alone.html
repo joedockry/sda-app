@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>SEAN DOCKRY & ASSOCIATES</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16">
+        <link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+		</script>
+    </head>
+    <body>
+        <header id="navigation-bar">
+			<nav>
+				<logo></logo>
+				<div class="logo-fixed">Sea&#769;n Dockry and Associates</div>
+				<div class="tabs">
+					<ul class="tabs-list">
+					  	<li id="home" class="tab selected-tab"><a class="tab-link" href="../index.php">Home</a></li><!--
+				   		--><li id="services" class="tab"><a class="tab-link" href="../services.html">Services</a></li><!--
+				   		--><li id="about" class="tab"><a class="tab-link" href="../about.html">About</a></li><!--
+				   		--><li id="contact" class="tab"><a class="tab-link" href="../contact.html">Contact</a></li>
+					  	<hr />
+					</ul>
+				</div>
+				<burger>
+					<input type="checkbox" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<ul class="burger-menu">
+						<li id="burger-home" class="burger-tab burger-selected-item"><a class="burger-tab-link" href="../index.php">Home</a></li>
+						<li id="burger-services" class="burger-tab"><a class="burger-tab-link" href="../services.html">Services</a></li>
+						<li id="burger-about" class="burger-tab"><a class="burger-tab-link" href="../about.html">About</a></li>
+						<li id="burger-contact" class="burger-tab"><a class="burger-tab-link" href="../contact.html">Contact</a></li>
+						<div id="burger-select"></div>
+					</ul>
+				</burger>
+			</nav>
+		</header>
+        <div class="container">
+			<div class="page-title">
+			</div>
+			<div class="grid">
+				<div class="row"> 
+					<div class="column">
+					</div>
+					<div class="column">
+					</div>
+					<div class="column">
+					</div>
+                </div>
+            </div>
+        </div>
+        <footer>
+			<div class="footer-title">
+				Sea&#769;n Dockry and Associates
+			</div>
+			<div class="footer-social">
+				<i class="fab fa-facebook-f social-media" style="font-size:50px" onClick="window.open('https://www.facebook.com/pages/category/Professional-Service/Sean-Dockry-Associates-198935273504277/');"></i>
+				<i class="fab fa-houzz social-media" style="font-size:50px" onClick="window.open('https://www.houzz.ie/pro/sdaarch/sean-dockry-associates');"></i>
+				<i class="fab fa-pinterest social-media" style="font-size:50px" onClick="window.open('https://www.pinterest.ie/dockry/');"></i>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-info">
+                    <div class="icon">
+                        <center>
+                            <i class="fa fa-map-marker" style="font-size:24px"></i>
+                        </center>
+                    </div>
+                    <div>Second Floor, Corbett House, Shoemaker Lane, Edward Square, Galway</div>
+                </div>
+                <div class="footer-info">
+                    <div class="icon">
+                        <center>
+                            <i class="fa fa-phone" style="font-size:24px"></i>
+                        </center>
+                    </div>
+                    <div>+353 (0)91 568522</div>
+                </div>
+                <div class="footer-info">
+                    <div class="icon">
+                        <center>
+                            <i class="fa fa-envelope" style="font-size:24px"></i>
+                        </center>
+                    </div>
+                    <div>mail@sdaarchitects.ie</div>
+                </div>
+			</div>
+		</footer>
+	</body>
+	</html>
+	<script>
+
+        var category = getUrlParameter("category");
+
+		/*
+		Sticky Header Controller
+		*/
+
+		var header = document.getElementById("navigation-bar");
+		var sticky = header.offsetTop + 40;
+		var touch = header.offsetTop + 15;
+
+		//$(document.body).on('touchmove', onTouch);
+		//$(window).scroll(onScroll);
+		header.classList.add("nav-fixed"); 
+
+		function onScroll(){ 
+			if (window.pageYOffset >= sticky) {
+				header.classList.add("nav-fixed");
+			} else {
+				header.classList.remove("nav-fixed");
+			}
+		}
+
+		function onTouch(){ 
+			if (window.pageYOffset >= touch) {
+				header.classList.add("nav-fixed");
+			} else {
+				header.classList.remove("nav-fixed");
+			}
+		}
+
+
+
+        /*
+        Get Parameters
+        */
+        function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : sParameterName[1];
+                }
+            }
+        };
+
+
+
+        /*
+        Fill Projects
+        */
+        getData();
+
+        function getData() {
+            var columns = $(".column");
+            var c = 0;
+
+			$.getJSON(category + '/category-info.json', function(data) {
+				console.log(category);
+                var cat = data.category;
+
+				/*var categoryAll = "<div class=\"grid-item\">" +
+					"<a href=\"./all.html?category=" + cat + "\">" +
+						"<img src=\"./" + cat + "/all/cover.jpg\">" +
+						"<div>All</div>" +
+					"</a>" +
+				"</div>"
+				$(categoryAll).appendTo(columns[0]);*/
+
+				$.each(data.project, function(i, p) {
+					createProject(columns[c], p.id, p.title, p.images[0].url, cat);
+                    c = (c + 1) % 3;
+     			});
+			});
+
+			$.getJSON('info.json', function(data) {
+				var maxCategories = data.num;
+
+                $.each(data.category, function(i, p) {
+					if(p.id == category) {
+						var title = "<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + p.title + " <hr></div>";
+                        $(title).appendTo(".page-title");
+
+						$.getJSON('info.json', function(data) {
+							$.each(data.category, function(i, m) {
+								var prev = parseInt(p.idNum) - 1;
+								if(prev < 0) prev = parseInt(maxCategories) - 1;
+								var next = parseInt(p.idNum) + 1;
+								if(next == parseInt(maxCategories)) next = 0;
+								if(m.idNum == prev) {
+									$(".controller-previous").parents().first().attr("href", "../projects/category.html?category=" + m.id);
+									$(".controller-previous > center > .controller-label").text(m.title);
+								}
+								else if(m.idNum == next) {
+									$(".controller-next").parents().first().attr("href", "../projects/category.html?category=" + m.id);
+									$(".controller-next > center > .controller-label").text(m.title);
+								}
+							});
+						});
+					}
+				});
+			});
+		};
+
+		function createProject(column, id, title, url, cat) {
+			var project = "<div class=\"grid-item\">" +
+                            "<a href=\"project-alone.html?category=" + cat + "&project=" + id + "\">" +
+							    "<img src=\"" + cat + "/" + id + "/" + url + "\">" +
+							    "<div>" + title + "</div>" +
+                            "</a>" +
+						"</div>"
+			$(project).appendTo(column);
+		}
+
+
+
+		/*
+		Project Controller Buttons
+		*/
+		$(document).on({
+			mouseenter: function() {
+				$(this).addClass('hi-icon-active');
+			},
+			mouseleave: function() {
+				$('.hi-icon').removeClass('hi-icon-active');
+			}
+		}, ".hi-icon");
+	</script>
+</html>
