@@ -232,6 +232,12 @@
         var category = getUrlParameter("category");
         var project = getUrlParameter("project");
 
+        if(category == "alterations-extensions") {
+            $("#left").hide();
+            $("#right").hide();
+            $("#carousel-pagination").hide();
+        }
+
 		/*
 		Sticky Header Controller
 		*/

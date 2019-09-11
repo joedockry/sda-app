@@ -31,66 +31,9 @@
             ]
         },
         {
-            "id": "mags-bothareen",
+            "id": "house-in-kinvara",
             "idNum": "1",
-            "title": "Mags Bothareen",
-            "category": "Houses",
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                },
-                {
-                    "title": "Image 3",
-                    "url": "images/image-3.jpg"
-                },
-                {
-                    "title": "Image 4",
-                    "url": "images/image-4.jpg"
-                }
-            ]
-        },
-        {
-            "id": "house-in-barna-1",
-            "idNum": "2",
-            "title": "House in Barna 1",
-            "category": "Houses",
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                },
-                {
-                    "title": "Image 2",
-                    "url": "images/image-2.jpg"
-                }
-            ],
-            "videos": [
-                {
-                    "id": "swurjlhefb"
-                }
-            ]
-        },
-        {
-            "id": "house-in-barna-2",
-            "idNum": "3",
-            "title": "House in Barna 2",
-            "category": "Houses",
-            "images": [
-                {
-                    "title": "Image 1",
-                    "url": "images/image-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": "aurora",
-            "idNum": "4",
-            "title": "Aurora",
+            "title": "House in Kinvara",
             "category": "Houses",
             "images": [
                 {
@@ -116,9 +59,82 @@
             ]
         },
         {
-            "id": "house-in-kinvara",
+            "id": "mags-bothareen",
+            "idNum": "2",
+            "title": "Mags Bothareen",
+            "category": "Houses",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                }
+            ]
+        },
+        {
+            "id": "house-in-barna-1",
+            "idNum": "3",
+            "title": "House in Barna 1",
+            "category": "Houses",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                }
+            ],
+            "videos": [
+                {
+                    "id": "swurjlhefb"
+                }
+            ]
+        },
+        {
+            "id": "house-in-barna-2",
+            "idNum": "4",
+            "title": "House in Barna 2",
+            "category": "Houses",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "aurora",
             "idNum": "5",
-            "title": "House in Kinvara",
+            "title": "Aurora",
             "category": "Houses",
             "images": [
                 {

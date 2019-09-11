@@ -152,9 +152,9 @@
             ]
         },
         {
-            "id": "aurora",
+            "id": "house-in-kinvara",
             "idNum": "5",
-            "title": "Aurora",
+            "title": "House in Kinvara",
             "category": "Interior Design",
             "images": [
                 {
@@ -176,9 +176,9 @@
             ]
         },
         {
-            "id": "house-in-kinvara",
+            "id": "aurora",
             "idNum": "6",
-            "title": "House in Kinvara",
+            "title": "Aurora",
             "category": "Interior Design",
             "images": [
                 {
