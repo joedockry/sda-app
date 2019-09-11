@@ -34,7 +34,7 @@
             "details" : [
                 {
                     "head": "",
-                    "body": "Originally designed as a bar and restaurant representing a new street frontage this premises was further developed as a hotel. New interior fit outs are upgraded and refreshed every few years to maintain an attractive welcoming cotemporary environment."
+                    "body": "Originally designed as a bar and restaurant representing a new street frontage, this premises was further developed as a hotel. New interior fit outs are upgraded and refreshed every few years to maintain an attractive welcoming cotemporary environment. It is located just outside the city centre and accommodates a 14 no. bedroom boutique hotel with an award winning restaurant and three bars."
                 }
             ],
             "images": [
@@ -128,6 +128,12 @@
             "idNum": "4",
             "title": "The Dough Bros",
             "category": "Interior Design",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "A rustic classic pizza restaurant with strong branding was integrated into an 1818 Protected Structure."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",

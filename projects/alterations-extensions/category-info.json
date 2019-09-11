@@ -15,9 +15,9 @@
             ]
         },
         {
-            "id": "cannon-morrin",
+            "id": "oranmore-house",
             "idNum": "1",
-            "title": "Cannon Morrin",
+            "title": "Oranmore House",
             "category": "Alterations & Extensions",
             "images": [
                 {
@@ -39,9 +39,9 @@
             ]
         },
         {
-            "id": "jackie-crowe-house",
+            "id": "lahinch-house",
             "idNum": "3",
-            "title": "Jackie Crowe House",
+            "title": "Lahinch House",
             "category": "Alterations & Extensions",
             "images": [
                 {
@@ -51,9 +51,9 @@
             ]
         },
         {
-            "id": "leyland",
+            "id": "barna-house",
             "idNum": "4",
-            "title": "Leyland",
+            "title": "Barna House",
             "category": "Alterations & Extensions",
             "images": [
                 {

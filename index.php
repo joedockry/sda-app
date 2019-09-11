@@ -15,7 +15,7 @@
     </head>
     <body>
 		<!--<div class="welcome-sequence">
-			<!--<div class="welcome-1">
+			<div class="welcome-1">
 				<div class="welcome seq-1">s</div>
 				<div class="welcome seq-1">e</div>
 				<div class="welcome seq-1">a</div>
@@ -45,7 +45,7 @@
 		</div>-->
         <header id="navigation-bar">
 			<nav>
-				<a href="./index.php"><logo></logo></a>
+				<a href="./index.php"><logo></logo></a><riailogo></riailogo>
 				<div class="logo-fixed">Sea&#769;n Dockry and Associates</div>
 				<div class="tabs">
 					<ul class="tabs-list">
@@ -174,8 +174,9 @@
 					</div>
 				</div>
 			</div>
-        </div>
+		</div>
         <footer>
+		<riaibig></riaibig>
 			<div class="footer-title">
 				Sea&#769;n Dockry and Associates
 			</div>

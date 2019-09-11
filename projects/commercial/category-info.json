@@ -10,7 +10,7 @@
             "details" : [
                 {
                     "head": "",
-                    "body": "This project involved the development of a landmark building off Eyre Square for a multi-level retail stone with offices and penthouse residential levels. Novel Engineering facilitated three basement levels and six over ground storeys. A vertical emphasis was achieved with the use of basalt stone and moleanos limestone punctuated with large scale glazed features."
+                    "body": "This project involved the development of a landmark building off Eyre Square for a multi-level retail store with offices and penthouse residential levels. Novel Engineering facilitated three basement levels and six over ground storeys. A vertical emphasis was achieved with the use of basalt stone and moleanos limestone punctuated with large scale glazed features."
                 }
             ],
             "images": [
@@ -33,6 +33,12 @@
             "idNum": "1",
             "title": "Ennistymon Fitzpatrick's Supermarket",
             "category": "Commercial",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "A large volume retailer, located on the edge of a country market town with a strong traditional heritage character, required a distinctive design style."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -79,6 +85,12 @@
             "idNum": "3",
             "title": "Kinvara Burke's Supermarket",
             "category": "Commercial",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "A large village centre retailer thats expressed as a series of blocks to respect the traditional plot sizes of this historic fishing village."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",

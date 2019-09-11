@@ -36,6 +36,31 @@ logo {
     background-repeat: no-repeat;
 }
 
+riailogo {
+    float: left;
+    margin-left: 50px;
+    margin-top: 0px;
+    width: 60px;
+    height: 60px;
+    background-image: url('images/riai-logo.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+riaibig {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: -180px;
+    width: 180px;
+    height: 180px;
+    background-image: url('images/riai-logo-big.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .logo-fixed {
     margin: 10px 10px 10px 3%;
     position: absolute;
@@ -321,6 +346,9 @@ burger input:checked ~ ul {
     }
     .burger-menu {
         /*margin-left: 45%;*/
+    }
+    riailogo {
+        display: none;
     }
 }
 @media only screen and (max-width: 400px) {
@@ -622,6 +650,7 @@ burger input:checked ~ ul {
 
 
 footer {
+    position: relative;
     padding: 2.5% 2.5% 8% 12%;
     color: rgb(120, 120, 120);
     background: rgb(48, 48, 48);
