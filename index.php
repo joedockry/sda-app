@@ -45,7 +45,7 @@
 		</div>-->
         <header id="navigation-bar">
 			<nav>
-				<a href="./index.php"><logo></logo></a><riailogo></riailogo>
+				<a href="./index.php"><logo></logo></a><!--<riailogo></riailogo>-->
 				<div class="logo-fixed">Sea&#769;n Dockry and Associates</div>
 				<div class="tabs">
 					<ul class="tabs-list">
@@ -176,7 +176,7 @@
 			</div>
 		</div>
         <footer>
-		<riaibig></riaibig>
+		<!--<riaibig></riaibig>-->
 			<div class="footer-title">
 				Sea&#769;n Dockry and Associates
 			</div>
@@ -210,6 +210,7 @@
 					</div>
 					<div>mail@sdaarchitects.ie</div>
 				</div>
+				<riairect></riairect>
 			</div>
 		</footer>
 	</body>

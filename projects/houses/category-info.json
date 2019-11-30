@@ -1,12 +1,22 @@
 {
     "category": "houses",
-    "num": "6",
+    "num": "7",
     "project": [
         {
             "id": "house-in-furbo",
             "idNum": "0",
             "title": "House in Furbo",
             "category": "Houses",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "Set on the North side of the road a raised plinth was used to gain the spectacular views access the road to Galway Bay. The green plan kitchen/dining/living areas open to the raised South facing patio."
+                },
+                {
+                    "head": "",
+                    "body": "A proportional breakup of glazing stone, and a timber surrounding to the main window gave an appropriate sense of scale to the house."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -35,6 +45,12 @@
             "idNum": "1",
             "title": "House in Kinvara",
             "category": "Houses",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "A contemporary interior has an abundance of natural light. The use of untreated timber, limestone, zinc render a balanced visual scale of the house."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -61,8 +77,14 @@
         {
             "id": "mags-bothareen",
             "idNum": "2",
-            "title": "Mags Bothareen",
+            "title": "House at Freeport Barna",
             "category": "Houses",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "This house articulates a strong double fronted corner on the main approach to the village. The layout shields private garden areas and has views of the pier and Galway Bay."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -87,6 +109,16 @@
             "idNum": "3",
             "title": "House in Barna 1",
             "category": "Houses",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "Set on an elevated site on the North side of the road this house is designed as split level with inverted living. This approach creates a bright living area opening to a raised terrace with magnificent 180&deg; views to the South and Galway Bay."
+                },
+                {
+                    "head": "",
+                    "body": "Contemporary and traditional forms are mixed to harmonise with the locality and benefit from the site's natural advantages."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -108,6 +140,12 @@
             "idNum": "4",
             "title": "House in Barna 2",
             "category": "Houses",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "The proportional breakup of glazing stone is used to maintain privacy while gaining opportunities for the stunning views of Galway Bay."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -135,6 +173,40 @@
             "id": "aurora",
             "idNum": "5",
             "title": "Aurora",
+            "category": "Houses",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "This large private dwelling in North Galway has a strong classical theme with luxurious finishes in a deceptively bright house. Set on a large site the gardens are laid out to maximise their physical and visual relationship to the interiors."
+                }
+            ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
+                }
+            ]
+        },
+        {
+            "id": "menlo-house",
+            "idNum": "6",
+            "title": "Menlo House",
             "category": "Houses",
             "images": [
                 {

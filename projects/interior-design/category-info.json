@@ -7,6 +7,16 @@
             "idNum": "0",
             "title": "Menlo Park Hotel",
             "category": "Interior Design",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "As an extension and alteration to the existing hotel, this project enabled the complete modernisation and rebranding, both in its interior and external expression for this well-known landmark hotel."
+                },
+                {
+                    "head": "",
+                    "body": "This hotel caters for tourist visitors to Galway and the West of Ireland, for business and social functions, weddings, etc. and the local community."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -34,7 +44,7 @@
             "details" : [
                 {
                     "head": "",
-                    "body": "Originally designed as a bar and restaurant representing a new street frontage, this premises was further developed as a hotel. New interior fit outs are upgraded and refreshed every few years to maintain an attractive welcoming cotemporary environment. It is located just outside the city centre and accommodates a 14 no. bedroom boutique hotel with an award winning restaurant and three bars."
+                    "body": "Originally designed as a bar and restaurant expressed a new street frontage, this premises was further developed as a hotel. New interior fit outs are upgraded and refreshed every few years to maintain an attractive welcoming contemporary environment. It is located just outside the city centre and accommodates a 14 no. bedroom boutique hotel with an award winning restaurant and three bars."
                 }
             ],
             "images": [
@@ -65,6 +75,16 @@
             "idNum": "2",
             "title": "House in Furbo",
             "category": "Interior Design",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "Set on the North side of the road a raised plinth was used to gain the spectacular views access the road to Galway Bay. The green plan kitchen/dining/living areas open to the raised South facing patio."
+                },
+                {
+                    "head": "",
+                    "body": "A proportional breakup of glazing stone, and a timber surrounding to the main window gave an appropriate sense of scale to the house."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -92,7 +112,7 @@
             "details" : [
                 {
                     "head": "",
-                    "body": "The Project Included brand development to achieve a new luxurious relaxing entertainment environment integrating the latest technology into a neo classical art deco style relevant to the traditions and history of the Protected Structure on Dublin’s main street."
+                    "body": "The project included brand development to achieve a new luxurious relaxing entertainment environment integrating the latest technology into a neo classical art deco style relevant to the traditions and history of the Protected Structure on Dublin’s main street."
                 }
             ],
             "images": [
@@ -162,6 +182,12 @@
             "idNum": "5",
             "title": "House in Kinvara",
             "category": "Interior Design",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "A contemporary interior has an abundance of natural light. The use of untreated timber, limestone, zinc render a balanced visual scale of the house."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -186,6 +212,12 @@
             "idNum": "6",
             "title": "Aurora",
             "category": "Interior Design",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "This large private dwelling in North Galway has a strong classical theme with luxurious finishes in a deceptively bright house. Set on a large site the gardens are laid out to maximise their physical and visual relationship to the interiors."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",

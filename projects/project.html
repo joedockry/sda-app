@@ -197,6 +197,7 @@
                     </div>
                     <div>mail@sdaarchitects.ie</div>
                 </div>
+				<riairect></riairect>
 			</div>
         </footer>
         <div class="video-overlay-background" onclick="CloseVideo()">
@@ -232,11 +233,13 @@
         var category = getUrlParameter("category");
         var project = getUrlParameter("project");
 
+        /*
+        Only if one image exists in the category
         if(category == "alterations-extensions") {
             $("#left").hide();
             $("#right").hide();
             $("#carousel-pagination").hide();
-        }
+        }*/
 
 		/*
 		Sticky Header Controller
@@ -694,6 +697,7 @@
         /*
         Fill Project Data
         */
+        var autoCarousel;
         getData(project, category);
 
         function getData(project, category) {
@@ -752,6 +756,15 @@
                             var imagePip = "<span class=\"button-pagination\"  url=\"" + category + "/" + p.id + "/" + q.url + "\"></span>";
                             $(imagePip).appendTo("#carousel-pagination");
                         })
+
+                        autoCarousel = true;
+                        if(p.images.length <= 1) {
+                            $("#left").hide();
+                            $("#right").hide();
+                            $("#carousel-pagination").hide();
+                            autoCarousel = false;
+                        }
+                        SetCarousel();
 
                         $(".other-content").first().addClass("highlighted-content");
                         $(".button-pagination").first().addClass("active-pip");
@@ -863,7 +876,7 @@
         /*
         Auto Carousel
         */
-        var autoCarousel = true;
+        function SetCarousel() {
         setInterval(function() {
             if (autoCarousel === true) {
                 // Return to original scale
@@ -898,5 +911,6 @@
                 selectOption(nextContent, 0, r);
             }
         }, 7000);
+        }
 	</script>
 </html>

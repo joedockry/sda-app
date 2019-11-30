@@ -1,6 +1,6 @@
 {
     "category": "alterations-extensions",
-    "num": "5",
+    "num": "6",
     "project": [
         {
             "id": "bothair-na-grainne",
@@ -11,6 +11,22 @@
                 {
                     "title": "Image 1",
                     "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
                 }
             ]
         },
@@ -59,6 +75,30 @@
                 {
                     "title": "Image 1",
                     "url": "images/image-1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "newcastle",
+            "idNum": "5",
+            "title": "House at Newcastle Rd.",
+            "category": "Alterations & Extensions",
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                },
+                {
+                    "title": "Image 4",
+                    "url": "images/image-4.jpg"
                 }
             ]
         }

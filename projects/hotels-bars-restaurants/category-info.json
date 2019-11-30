@@ -11,6 +11,10 @@
                 {
                     "head": "",
                     "body": "As an extension and alteration to the existing hotel, this project enabled the complete modernisation and rebranding, both in its interior and external expression for this well-known landmark hotel."
+                },
+                {
+                    "head": "",
+                    "body": "This hotel caters for tourist visitors to Galway and the West of Ireland, for business and social functions, weddings, etc. and the local community."
                 }
             ],
             "images": [
@@ -44,7 +48,7 @@
             "details" : [
                 {
                     "head": "",
-                    "body": "Originally designed as a bar and restaurant representing a new street frontage, this premises was further developed as a hotel. New interior fit outs are upgraded and refreshed every few years to maintain an attractive welcoming cotemporary environment. It is located just outside the city centre and accommodates a 14 no. bedroom boutique hotel with an award winning restaurant and three bars."
+                    "body": "Originally designed as a bar and restaurant expressed a new street frontage, this premises was further developed as a hotel. New interior fit outs are upgraded and refreshed every few years to maintain an attractive welcoming contemporary environment. It is located just outside the city centre and accommodates a 14 no. bedroom boutique hotel with an award winning restaurant and three bars."
                 }
             ],
             "images": [
@@ -103,6 +107,10 @@
                 {
                     "head": "",
                     "body": "A medieval pub steeped in history in the heart of Galway's Latin Quarter."
+                },
+                {
+                    "head": "",
+                    "body": "This project involved an integration of the requirements of a modern pub and high quality food bistro into an established premises within the medieval structure of Bank's/Stubber's Castle as depicted on the Speed's 1650's map of Galway City."
                 }
             ],
             "images": [
@@ -127,8 +135,14 @@
         {
             "id": "athenry-hotel-raheen-woods",
             "idNum": "4",
-            "title": "Athenry Hotel Raheen Woods",
+            "title": "Raheen Woods Hotel",
             "category": "Hotels, Bars & Restaurants",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "This hotel set with \"The Fields of Athenry\" in a tranquill woodland setting. It accommodates 50 guest bedrooms, a bar & grill, bistro and restaurant, a 20m swimming pool, gym & spa and 200 car parking spaces."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -153,6 +167,16 @@
             "idNum": "5",
             "title": "Claregalway Hotel",
             "category": "Hotels, Bars & Restaurants",
+            "details" : [
+                {
+                    "head": "",
+                    "body": "This hotel was designed to create a strong landmark village centre hotel to serve the tourists visiting Galway and the West of Ireland, business and social functions and integrated with the needs of the local community."
+                },
+                {
+                    "head": "",
+                    "body": "This hotel is considered to be one of Galway's best hotels and has 48 bedrooms of award winning accommodation, an exclusive fitness and leisure centre, and top class dining and drinking experience in Bia & Co."
+                }
+            ],
             "images": [
                 {
                     "title": "Image 1",
@@ -169,6 +193,10 @@
                 {
                     "title": "Image 4",
                     "url": "images/image-4.jpg"
+                },
+                {
+                    "title": "Image 5",
+                    "url": "images/image-5.jpg"
                 }
             ]
         },

@@ -1,6 +1,6 @@
 {
     "category": "commercial",
-    "num": "4",
+    "num": "5",
     "project": [
         {
             "id": "citypoint",
@@ -11,6 +11,10 @@
                 {
                     "head": "",
                     "body": "This project involved the development of a landmark building off Eyre Square for a multi-level retail store with offices and penthouse residential levels. Novel Engineering facilitated three basement levels and six over ground storeys. A vertical emphasis was achieved with the use of basalt stone and moleanos limestone punctuated with large scale glazed features."
+                },
+                {
+                    "head": "",
+                    "body": "The development accommodates a retail unit of 3,600 m&sup2;, offices of 2,350 m&sup2; and 16 no. apartments, all over three stories of basement car parking and storage."
                 }
             ],
             "images": [
@@ -37,6 +41,10 @@
                 {
                     "head": "",
                     "body": "A large volume retailer, located on the edge of a country market town with a strong traditional heritage character, required a distinctive design style."
+                },
+                {
+                    "head": "",
+                    "body": "A supermarket of 2,500 m&sup2; and 6 no. two storey retail units including a café, a crèche, a hair salon and similar compatible outlets."
                 }
             ],
             "images": [
@@ -67,6 +75,10 @@
                 {
                     "head": "",
                     "body": "The shop front and interior design project needed to express the rich heritage and iconic history of the traditional Galway family quality jewellers. The long established strong tradition and contemporary design characteristics had to be integrated into a Protected Structure."
+                },
+                {
+                    "head": "",
+                    "body": "The project involved reversing works carried out some 30 years previously to develop two separate premises expressing differing themes. Integrating heritage, fire safety, security, interior design, displays and lighting with new shop front expressions."
                 }
             ],
             "images": [
@@ -88,9 +100,33 @@
             "details" : [
                 {
                     "head": "",
-                    "body": "A large village centre retailer thats expressed as a series of blocks to respect the traditional plot sizes of this historic fishing village."
+                    "body": "A large village centre retailer that is expressed as a series of blocks to respect the traditional plot sizes of this historic fishing village."
+                },
+                {
+                    "head": "",
+                    "body": "A retail shop of 3,300 m&sup2; comprising a supermarket of 1,100 m&sup2;, 6 no. retail units, offices and a hostel/B&B premises."
                 }
             ],
+            "images": [
+                {
+                    "title": "Image 1",
+                    "url": "images/image-1.jpg"
+                },
+                {
+                    "title": "Image 2",
+                    "url": "images/image-2.jpg"
+                },
+                {
+                    "title": "Image 3",
+                    "url": "images/image-3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "merchant-square",
+            "idNum": "4",
+            "title": "Merchant Square",
+            "category": "Commercial",
             "images": [
                 {
                     "title": "Image 1",
